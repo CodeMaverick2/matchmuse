@@ -17,29 +17,7 @@ async function migrate() {
     // Execute schema
     await database.exec(schema);
     
-    // Add new columns to matches table for enhanced algorithm
-    await database.run(`
-      ALTER TABLE matches ADD COLUMN algorithm_type TEXT DEFAULT 'legacy'
-    `);
-
-    await database.run(`
-      ALTER TABLE matches ADD COLUMN match_type TEXT DEFAULT 'ranked'
-    `);
-
-    await database.run(`
-      ALTER TABLE matches ADD COLUMN stability_verified BOOLEAN DEFAULT FALSE
-    `);
-    
     logger.info('Database migration completed successfully');
-    
-    // Verify tables were created
-    const tables = await database.all(`
-      SELECT name FROM sqlite_master 
-      WHERE type='table' AND name NOT LIKE 'sqlite_%'
-      ORDER BY name
-    `);
-    
-    logger.info('Created tables:', tables.map(t => t.name));
     
   } catch (error) {
     logger.error('Migration failed:', error);

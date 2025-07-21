@@ -42,6 +42,25 @@ class DataSeeder {
     }
   }
 
+  async seedIfNeeded() {
+    await database.connect();
+    const tables = ['clients', 'talents', 'gigs', 'matches'];
+    let needsSeeding = false;
+    for (const table of tables) {
+      const result = await database.get(`SELECT COUNT(*) as count FROM ${table}`);
+      if (!result || result.count === 0) {
+        needsSeeding = true;
+        break;
+      }
+    }
+    if (needsSeeding) {
+      await this.seed();
+    } else {
+      logger.info('Sample data already present, skipping seeding.');
+    }
+    await database.disconnect();
+  }
+
   async clearExistingData() {
     logger.info('Clearing existing data...');
     
@@ -354,7 +373,7 @@ class DataSeeder {
 // Run seeding if called directly
 if (require.main === module) {
   const seeder = new DataSeeder();
-  seeder.seed().catch(console.error);
+  seeder.seedIfNeeded().catch(console.error);
 }
 
 module.exports = DataSeeder; 

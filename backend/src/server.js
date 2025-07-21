@@ -7,6 +7,8 @@ const morgan = require('morgan');
 
 const database = require('./database/connection');
 const logger = require('./utils/logger');
+const DataSeeder = require('./database/seed');
+const migrate = require('./database/migrate');
 
 // Import routes
 const talentRoutes = require('./routes/talents');
@@ -142,7 +144,14 @@ async function startServer() {
   try {
     // Connect to database
     await database.connect();
-    
+
+    // Run migrations
+    await migrate();
+
+    // Seed data if needed
+    const seeder = new DataSeeder();
+    await seeder.seedIfNeeded();
+
     // Start listening
     app.listen(PORT, () => {
       logger.info(`🚀 BreadButter API server running on port ${PORT}`);
@@ -150,7 +159,7 @@ async function startServer() {
       logger.info(`🔗 Health check: http://localhost:${PORT}/api/health`);
       logger.info(`📚 API docs: http://localhost:${PORT}/api`);
     });
-    
+
   } catch (error) {
     logger.error('Failed to start server:', error);
     process.exit(1);

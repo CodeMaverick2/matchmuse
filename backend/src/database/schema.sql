@@ -17,8 +17,8 @@ CREATE TABLE IF NOT EXISTS talents (
     endorsements TEXT, -- JSON array
     interest_tags TEXT, -- JSON array
     tier_tags TEXT, -- JSON array
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    created_at TIMESTAMPTZ DEFAULT NOW(),
+    updated_at TIMESTAMPTZ DEFAULT NOW()
 );
 
 CREATE TABLE IF NOT EXISTS talent_categories (
@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS talent_style_tags (
 );
 
 CREATE TABLE IF NOT EXISTS talent_portfolio (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    id SERIAL PRIMARY KEY,
     talent_id TEXT,
     title TEXT,
     tags TEXT, -- JSON array
@@ -52,7 +52,7 @@ CREATE TABLE IF NOT EXISTS talent_portfolio (
 );
 
 CREATE TABLE IF NOT EXISTS talent_availability (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    id SERIAL PRIMARY KEY,
     talent_id TEXT,
     city TEXT,
     from_date DATE,
@@ -87,8 +87,8 @@ CREATE TABLE IF NOT EXISTS clients (
     lead_owner TEXT,
     is_repeat_client BOOLEAN DEFAULT FALSE,
     attachments_docs_provided TEXT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    created_at TIMESTAMPTZ DEFAULT NOW(),
+    updated_at TIMESTAMPTZ DEFAULT NOW()
 );
 
 CREATE TABLE IF NOT EXISTS client_style_preferences (
@@ -116,8 +116,8 @@ CREATE TABLE IF NOT EXISTS gigs (
     is_date_fixed BOOLEAN DEFAULT FALSE,
     references_given BOOLEAN DEFAULT FALSE,
     urgency TEXT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    created_at TIMESTAMPTZ DEFAULT NOW(),
+    updated_at TIMESTAMPTZ DEFAULT NOW(),
     FOREIGN KEY (client_id) REFERENCES clients(id) ON DELETE CASCADE
 );
 
@@ -129,7 +129,7 @@ CREATE TABLE IF NOT EXISTS gig_style_tags (
 );
 
 CREATE TABLE IF NOT EXISTS matches (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    id SERIAL PRIMARY KEY,
     gig_id TEXT,
     talent_id TEXT,
     score REAL,
@@ -142,8 +142,8 @@ CREATE TABLE IF NOT EXISTS matches (
     feedback_from_talent TEXT,
     shared_on DATE,
     final_decision TEXT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    created_at TIMESTAMPTZ DEFAULT NOW(),
+    updated_at TIMESTAMPTZ DEFAULT NOW(),
     FOREIGN KEY (gig_id) REFERENCES gigs(id) ON DELETE CASCADE,
     FOREIGN KEY (talent_id) REFERENCES talents(id) ON DELETE CASCADE
 );
@@ -151,14 +151,14 @@ CREATE TABLE IF NOT EXISTS matches (
 CREATE TABLE IF NOT EXISTS talent_embeddings (
     talent_id TEXT PRIMARY KEY,
     embedding_vector TEXT, -- JSON array of floats
-    last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    last_updated TIMESTAMPTZ DEFAULT NOW(),
     FOREIGN KEY (talent_id) REFERENCES talents(id) ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS gig_embeddings (
     gig_id TEXT PRIMARY KEY,
     embedding_vector TEXT, -- JSON array of floats
-    last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    last_updated TIMESTAMPTZ DEFAULT NOW(),
     FOREIGN KEY (gig_id) REFERENCES gigs(id) ON DELETE CASCADE
 );
 
@@ -192,27 +192,31 @@ CREATE INDEX IF NOT EXISTS idx_matches_score ON matches(score);
 CREATE INDEX IF NOT EXISTS idx_matches_status ON matches(status);
 CREATE INDEX IF NOT EXISTS idx_matches_decision ON matches(final_decision);
 
--- Triggers for updated_at timestamps
-CREATE TRIGGER IF NOT EXISTS update_talents_timestamp 
-    AFTER UPDATE ON talents
-    BEGIN
-        UPDATE talents SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
-    END;
+-- Triggers for updated_at timestamps in PostgreSQL
+CREATE OR REPLACE FUNCTION update_updated_at_column()
+RETURNS TRIGGER AS $$
+BEGIN
+   NEW.updated_at = NOW();
+   RETURN NEW;
+END;
+$$ language 'plpgsql';
 
-CREATE TRIGGER IF NOT EXISTS update_clients_timestamp 
-    AFTER UPDATE ON clients
-    BEGIN
-        UPDATE clients SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
-    END;
+CREATE TRIGGER update_talents_timestamp
+  BEFORE UPDATE ON talents
+  FOR EACH ROW
+  EXECUTE PROCEDURE update_updated_at_column();
 
-CREATE TRIGGER IF NOT EXISTS update_gigs_timestamp 
-    AFTER UPDATE ON gigs
-    BEGIN
-        UPDATE gigs SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
-    END;
+CREATE TRIGGER update_clients_timestamp
+  BEFORE UPDATE ON clients
+  FOR EACH ROW
+  EXECUTE PROCEDURE update_updated_at_column();
 
-CREATE TRIGGER IF NOT EXISTS update_matches_timestamp 
-    AFTER UPDATE ON matches
-    BEGIN
-        UPDATE matches SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
-    END; 
+CREATE TRIGGER update_gigs_timestamp
+  BEFORE UPDATE ON gigs
+  FOR EACH ROW
+  EXECUTE PROCEDURE update_updated_at_column();
+
+CREATE TRIGGER update_matches_timestamp
+  BEFORE UPDATE ON matches
+  FOR EACH ROW
+  EXECUTE PROCEDURE update_updated_at_column(); 
