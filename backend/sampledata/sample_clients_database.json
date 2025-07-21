@@ -1,0 +1,2644 @@
+[
+  {
+    "id": "cli_001",
+    "name": "The Loom Art",
+    "type": "Startup",
+    "company_name": "The Loom Art",
+    "industry": "Fashion",
+    "sub_industry": "Sustainable Fashion",
+    "website": "https://theloomart.com",
+    "headquarters_city": "Jaipur",
+    "operating_cities": ["Jaipur", "Delhi", "Mumbai", "Online"],
+    "contact_person": "Aarushi Kilawat",
+    "designation": "Founder",
+    "communication": {
+      "preferred_tools": ["Email", "WhatsApp"],
+      "tone": "Passionate, Story-driven",
+      "preferred_work_hours": "10 AM - 6 PM IST"
+    },
+    "personality": ["Creative-led", "Detail-oriented"],
+    "brand_style": ["Handloom", "Sustainable", "Artisanal"],
+    "project_behavior": {
+      "typical_project_frequency": "Quarterly",
+      "type_of_briefs_shared": "Detailed, visual-heavy",
+      "average_scope": "Single-talent (Photographer/Videographer)"
+    },
+    "budgeting": {
+      "approach": "Fixed, but values quality"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Pro",
+      "location_of_talent": "Jaipur-based preferred",
+      "preferred_portfolio_format": "Instagram, Behance",
+      "language": "English, Hindi"
+    },
+    "project_history": [
+      "Campaign shoot for new collection 'Woven Dreams'",
+      "Behind-the-scenes video of artisans at work"
+    ],
+    "inbound_source": "Instagram",
+    "important_dates": {
+      "first_interaction": "2024-02-15",
+      "last_booking_date": "2025-05-20"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/theloomart",
+      "LinkedIn": null
+    },
+    "notes_and_history": "Loves talent who understand the nuances of handloom fabrics and can capture the texture and story. Prefers natural lighting.",
+    "past_feedback": "Good",
+    "lead_owner": "Priya Sharma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, moodboards and detailed briefs"
+  },
+  {
+    "id": "cli_002",
+    "name": "Zepto",
+    "type": "Startup",
+    "company_name": "Zepto",
+    "industry": "E-commerce",
+    "sub_industry": "Quick-Commerce",
+    "website": "https://www.zeptonow.com/",
+    "headquarters_city": "Mumbai",
+    "operating_cities": ["Mumbai", "Bangalore", "Delhi", "Chennai", "Hyderabad", "Pune", "Kolkata"],
+    "contact_person": "Aadit Palicha",
+    "designation": "Co-Founder & CEO",
+    "communication": {
+      "preferred_tools": ["Slack", "Email"],
+      "tone": "Direct, Fast-paced",
+      "preferred_work_hours": "Flexible, result-oriented"
+    },
+    "personality": ["Decisive", "Data-driven"],
+    "brand_style": ["Modern", "Bold", "Efficient"],
+    "project_behavior": {
+      "typical_project_frequency": "Monthly",
+      "type_of_briefs_shared": "Concise, data-focused",
+      "average_scope": "Full team (Photographer, Stylist, Editor)"
+    },
+    "budgeting": {
+      "approach": "Flexible for high ROI projects"
+    },
+    "client_tier": "High-frequency",
+    "talent_preferences": {
+      "experience_level": "Pro",
+      "location_of_talent": "Major metro cities",
+      "preferred_portfolio_format": "Website, PDF",
+      "language": "English"
+    },
+    "project_history": [
+      "Ad campaign for 10-minute delivery service",
+      "Social media content for new product launches"
+    ],
+    "inbound_source": "Referral",
+    "important_dates": {
+      "first_interaction": "2024-08-01",
+      "last_booking_date": "2025-06-10"
+    },
+    "social_profiles": {
+      "Instagram": "https://www.instagram.com/zeptonow/",
+      "LinkedIn": "https://www.linkedin.com/company/zeptonow/"
+    },
+    "notes_and_history": "Always on a tight deadline. Appreciates quick turnarounds and data-backed creative suggestions.",
+    "past_feedback": "Good",
+    "lead_owner": "Rahul Verma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, detailed briefs with performance metrics"
+  },
+  {
+    "id": "cli_003",
+    "name": "David Chen",
+    "type": "Individual",
+    "company_name": null,
+    "industry": "Art",
+    "sub_industry": "Digital Artist",
+    "website": "https://dchen.artstation.com",
+    "headquarters_city": "San Francisco",
+    "operating_cities": ["San Francisco", "Remote"],
+    "contact_person": "David Chen",
+    "designation": "Artist",
+    "communication": {
+      "preferred_tools": ["Email", "Discord"],
+      "tone": "Visionary, Abstract",
+      "preferred_work_hours": "PST Afternoons"
+    },
+    "personality": ["Creative-led", "Introverted"],
+    "brand_style": ["Sci-fi", "Surreal", "Cinematic"],
+    "project_behavior": {
+      "typical_project_frequency": "Ad-hoc",
+      "type_of_briefs_shared": "Concept art, music links",
+      "average_scope": "Single-talent (Animator, 3D Modeler)"
+    },
+    "budgeting": {
+      "approach": "Needs consultation"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Expert",
+      "location_of_talent": "Global",
+      "preferred_portfolio_format": "ArtStation, Vimeo",
+      "language": "English"
+    },
+    "project_history": [
+      "Animated loop for NFT drop",
+      "Concept art for a personal short film"
+    ],
+    "inbound_source": "BreadButter Discovery",
+    "important_dates": {
+      "first_interaction": "2024-10-05",
+      "last_booking_date": "2025-04-15"
+    },
+    "social_profiles": {
+      "Instagram": null,
+      "X": "https://twitter.com/dchen_art"
+    },
+    "notes_and_history": "Communicates in feelings and abstract concepts. Hates phone calls. Needs a creative who can interpret his vision with minimal hand-holding.",
+    "past_feedback": "Good, once aligned",
+    "lead_owner": "Chloe Davis",
+    "is_repeat_client": false,
+    "attachments_docs_provided": "Yes, image references"
+  },
+  {
+    "id": "cli_004",
+    "name": "Ministry of Tourism, Government of India",
+    "type": "Government Body",
+    "company_name": "Ministry of Tourism",
+    "industry": "Government",
+    "sub_industry": "Tourism",
+    "website": "https://tourism.gov.in/",
+    "headquarters_city": "New Delhi",
+    "operating_cities": ["Pan-India"],
+    "contact_person": "Project Director (Incredible India)",
+    "designation": "Joint Secretary",
+    "communication": {
+      "preferred_tools": ["Email", "Formal Letter"],
+      "tone": "Formal, Hierarchical",
+      "preferred_work_hours": "10 AM - 5 PM IST, Mon-Fri"
+    },
+    "personality": ["Process-oriented", "Price-sensitive"],
+    "brand_style": ["Inspirational", "Diverse", "Cultural"],
+    "project_behavior": {
+      "typical_project_frequency": "Per Campaign",
+      "type_of_briefs_shared": "Formal RFPs and tenders",
+      "average_scope": "Full team for large scale campaigns"
+    },
+    "budgeting": {
+      "approach": "Fixed, L1 tendering process"
+    },
+    "client_tier": "High-volume",
+    "talent_preferences": {
+      "experience_level": "Experienced agencies/teams only",
+      "location_of_talent": "Pan-India",
+      "preferred_portfolio_format": "Formal company profile and project proposals",
+      "language": "English, Hindi"
+    },
+    "project_history": [
+      "Incredible India 3.0 campaign video",
+      "Photography for 'Dekho Apna Desh' initiative"
+    ],
+    "inbound_source": "Government Tender Portal",
+    "important_dates": {
+      "first_interaction": "2024-07-10",
+      "last_booking_date": "2025-03-25"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/incredibleindia",
+      "X": "https://twitter.com/tourismgoi"
+    },
+    "notes_and_history": "Requires multiple rounds of approvals from various departments. Adherence to protocol is paramount. Payment cycles are notoriously long (90+ days).",
+    "past_feedback": "Satisfactory, but with administrative delays",
+    "lead_owner": "Amit Singh",
+    "is_repeat_client": false,
+    "attachments_docs_provided": "Yes, detailed RFPs"
+  },
+  {
+    "id": "cli_005",
+    "name": "Subko Coffee Roasters",
+    "type": "SMB",
+    "company_name": "Subko Coffee Roasters",
+    "industry": "F&B",
+    "sub_industry": "Specialty Coffee",
+    "website": "https://subko.coffee",
+    "headquarters_city": "Mumbai",
+    "operating_cities": ["Mumbai", "Online"],
+    "contact_person": "Rahul Reddy",
+    "designation": "Creative Head",
+    "communication": {
+      "preferred_tools": ["Slack", "Notion"],
+      "tone": "Casual, Collaborative, Artsy",
+      "preferred_work_hours": "11 AM - 7 PM IST"
+    },
+    "personality": ["Aesthetic-focused", "Community-oriented"],
+    "brand_style": ["Craft", "Origin-focused", "Textured"],
+    "project_behavior": {
+      "typical_project_frequency": "Monthly",
+      "type_of_briefs_shared": "Shared Notion doc with moodboard",
+      "average_scope": "Single-talent (Photographer, Videographer)"
+    },
+    "budgeting": {
+      "approach": "Flexible, values artistic alignment"
+    },
+    "client_tier": "High-frequency",
+    "talent_preferences": {
+      "experience_level": "Mid-level to Pro",
+      "location_of_talent": "Mumbai",
+      "preferred_portfolio_format": "Instagram, Website",
+      "language": "English"
+    },
+    "project_history": [
+      "Product photography for new single-origin coffee launch",
+      "Instagram Reels series on brewing methods"
+    ],
+    "inbound_source": "Referral",
+    "important_dates": {
+      "first_interaction": "2024-09-01",
+      "last_booking_date": "2025-06-28"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/subkocoffee",
+      "LinkedIn": "https://linkedin.com/company/subko-coffee-roasters"
+    },
+    "notes_and_history": "Very particular about capturing the 'Subko aesthetic' - grainy textures, warm tones, and a sense of place. Loves analog film photographers.",
+    "past_feedback": "Excellent",
+    "lead_owner": "Priya Sharma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, Notion pages"
+  },
+  {
+    "id": "cli_006",
+    "name": "GrowthX",
+    "type": "Startup",
+    "company_name": "GrowthX",
+    "industry": "EdTech",
+    "sub_industry": "Professional Upskilling",
+    "website": "https://growthx.club",
+    "headquarters_city": "Remote",
+    "operating_cities": ["Global"],
+    "contact_person": "Abhishek Patil",
+    "designation": "Head of Content",
+    "communication": {
+      "preferred_tools": ["Telegram", "Email"],
+      "tone": "Direct, Meme-friendly, Casual",
+      "preferred_work_hours": "Flexible, async"
+    },
+    "personality": ["Experimentative", "Fast-paced", "Community-centric"],
+    "brand_style": ["Bold", "Unconventional", "Value-driven"],
+    "project_behavior": {
+      "typical_project_frequency": "Weekly",
+      "type_of_briefs_shared": "Loom videos, one-pagers",
+      "average_scope": "Single-talent (Video Editor, Graphic Designer)"
+    },
+    "budgeting": {
+      "approach": "Fixed per project, transparent"
+    },
+    "client_tier": "High-frequency",
+    "talent_preferences": {
+      "experience_level": "Mid-level",
+      "location_of_talent": "Remote (India preferred)",
+      "preferred_portfolio_format": "Google Drive link, past work samples",
+      "language": "English"
+    },
+    "project_history": [
+      "Editing weekly YouTube podcast episodes",
+      "Creating carousels for Instagram from blog posts"
+    ],
+    "inbound_source": "X (Twitter)",
+    "important_dates": {
+      "first_interaction": "2024-11-10",
+      "last_booking_date": "2025-07-05"
+    },
+    "social_profiles": {
+      "X": "https://twitter.com/growthx_club",
+      "LinkedIn": "https://linkedin.com/school/growthx/"
+    },
+    "notes_and_history": "Needs editors who understand fast-paced, engaging, retention-focused editing for social media. Quick turnarounds are critical. Uses lots of pop-culture references.",
+    "past_feedback": "Excellent, moves fast",
+    "lead_owner": "Rahul Verma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, provides raw footage and asset folders"
+  },
+  {
+    "id": "cli_007",
+    "name": "WeWork India",
+    "type": "MNC",
+    "company_name": "WeWork India",
+    "industry": "Real Estate",
+    "sub_industry": "Co-working Spaces",
+    "website": "https://www.wework.co.in/",
+    "headquarters_city": "Bangalore",
+    "operating_cities": ["Bangalore", "Mumbai", "Delhi", "Pune", "Hyderabad"],
+    "contact_person": "Megha Agarwal",
+    "designation": "Head of Brand & Marketing",
+    "communication": {
+      "preferred_tools": ["Email", "Microsoft Teams"],
+      "tone": "Corporate, Professional",
+      "preferred_work_hours": "10 AM - 6 PM IST"
+    },
+    "personality": ["Process-oriented", "Brand-conscious"],
+    "brand_style": ["Vibrant", "Community", "Professional"],
+    "project_behavior": {
+      "typical_project_frequency": "Quarterly",
+      "type_of_briefs_shared": "Formal briefs, PPTs",
+      "average_scope": "Full team (Photographer, Videographer, Stylist)"
+    },
+    "budgeting": {
+      "approach": "Range-based, requires negotiation"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Pro",
+      "location_of_talent": "City-specific",
+      "preferred_portfolio_format": "Website, Corporate Deck",
+      "language": "English"
+    },
+    "project_history": [
+      "Launch campaign for new building in Koramangala, Bangalore",
+      "Member testimonial video series"
+    ],
+    "inbound_source": "LinkedIn Outreach",
+    "important_dates": {
+      "first_interaction": "2024-06-20",
+      "last_booking_date": "2025-04-10"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/weworkindia",
+      "LinkedIn": "https://linkedin.com/company/weworkindia"
+    },
+    "notes_and_history": "Needs creatives who are experienced in architectural and interior photography. All content must adhere to strict global brand guidelines.",
+    "past_feedback": "Good, but slow on approvals",
+    "lead_owner": "Amit Singh",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, extensive brand guidelines"
+  },
+  {
+    "id": "cli_008",
+    "name": "Aparna Verma & Sameer Sharma Wedding",
+    "type": "Individual",
+    "company_name": null,
+    "industry": "Personal",
+    "sub_industry": "Wedding",
+    "website": null,
+    "headquarters_city": "New York",
+    "operating_cities": ["New York", "Udaipur"],
+    "contact_person": "Aparna Verma",
+    "designation": "Client (Bride-to-be)",
+    "communication": {
+      "preferred_tools": ["WhatsApp", "Zoom"],
+      "tone": "Enthusiastic, Anxious",
+      "preferred_work_hours": "EST Evenings"
+    },
+    "personality": ["Detail-oriented", "Price-sensitive", "Emotional"],
+    "brand_style": ["Elegant", "Royal", "Candid"],
+    "project_behavior": {
+      "typical_project_frequency": "One-time",
+      "type_of_briefs_shared": "Pinterest boards, reference videos",
+      "average_scope": "Full wedding photography & film team"
+    },
+    "budgeting": {
+      "approach": "Fixed, but with some flexibility for add-ons"
+    },
+    "client_tier": "First-timer",
+    "talent_preferences": {
+      "experience_level": "Pro, with destination wedding experience",
+      "location_of_talent": "India-based team that can travel",
+      "preferred_portfolio_format": "Instagram, WeddingSutra profile",
+      "language": "English, Hindi"
+    },
+    "project_history": [
+      "3-day destination wedding coverage in Udaipur"
+    ],
+    "inbound_source": "Referral (from past client)",
+    "important_dates": {
+      "first_interaction": "2025-01-15",
+      "last_booking_date": "2025-03-01"
+    },
+    "social_profiles": {
+      "Instagram": "private_profile",
+      "LinkedIn": null
+    },
+    "notes_and_history": "High-maintenance client who needs a lot of reassurance. Very focused on getting specific shots from their Pinterest board. Key is to manage expectations on what's possible.",
+    "past_feedback": "N/A",
+    "lead_owner": "Priya Sharma",
+    "is_repeat_client": false,
+    "attachments_docs_provided": "Yes, Pinterest boards"
+  },
+  {
+    "id": "cli_009",
+    "name": "Schbang",
+    "type": "Agency",
+    "company_name": "Schbang",
+    "industry": "Marketing & Advertising",
+    "sub_industry": "Integrated Marketing Agency",
+    "website": "https://www.schbang.com/",
+    "headquarters_city": "Mumbai",
+    "operating_cities": ["Mumbai", "Bangalore", "Delhi"],
+    "contact_person": "Akshay Gurnani",
+    "designation": "Co-Founder & CEO",
+    "communication": {
+      "preferred_tools": ["Email", "WhatsApp"],
+      "tone": "Energetic, Demanding",
+      "preferred_work_hours": "Always on"
+    },
+    "personality": ["Decisive", "Demanding", "Creative"],
+    "brand_style": ["Youthful", "Trendy", "Digital-first"],
+    "project_behavior": {
+      "typical_project_frequency": "Weekly",
+      "type_of_briefs_shared": "Client briefs forwarded with agency inputs",
+      "average_scope": "Varies (single editor to full production unit)"
+    },
+    "budgeting": {
+      "approach": "Varies per client, often looks for value deals"
+    },
+    "client_tier": "High-volume",
+    "talent_preferences": {
+      "experience_level": "Mid-level to Pro",
+      "location_of_talent": "Mumbai, Bangalore",
+      "preferred_portfolio_format": "Quickly shareable links (Insta/Drive)",
+      "language": "English"
+    },
+    "project_history": [
+      "Ad film production for a large FMCG client",
+      "Quick-turnaround reel editing for a fashion brand",
+      "Product photoshoot for a D2C startup"
+    ],
+    "inbound_source": "Cold Outreach",
+    "important_dates": {
+      "first_interaction": "2024-04-12",
+      "last_booking_date": "2025-07-02"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/schbang",
+      "LinkedIn": "https://linkedin.com/company/schbang"
+    },
+    "notes_and_history": "Acts as a middleman, so communication can sometimes be disjointed. Expects fast turnarounds and is known for negotiating hard on price. Good for volume work.",
+    "past_feedback": "Mixed - good for business, but can be chaotic",
+    "lead_owner": "Rahul Verma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, forwards client documents"
+  },
+  {
+    "id": "cli_010",
+    "name": "Ritviz",
+    "type": "Artist",
+    "company_name": "Ritviz",
+    "industry": "Music",
+    "sub_industry": "Electronic Music Producer",
+    "website": "https://www.ritviz.com/",
+    "headquarters_city": "Pune",
+    "operating_cities": ["Pune", "Mumbai", "Global"],
+    "contact_person": "Manager - Upmanyu",
+    "designation": "Artist Manager",
+    "communication": {
+      "preferred_tools": ["WhatsApp", "Email"],
+      "tone": "Casual, Direct",
+      "preferred_work_hours": "Flexible"
+    },
+    "personality": ["Visionary", "Collaborative"],
+    "brand_style": ["Indian-fusion", "Vibrant", "Youthful"],
+    "project_behavior": {
+      "typical_project_frequency": "Per Music Video/Tour",
+      "type_of_briefs_shared": "Music track and a core idea",
+      "average_scope": "Full video production team, VJ, tour photographer"
+    },
+    "budgeting": {
+      "approach": "Flexible, focused on the idea"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Pro, with music video experience",
+      "location_of_talent": "India",
+      "preferred_portfolio_format": "Vimeo, Instagram",
+      "language": "English, Hindi"
+    },
+    "project_history": [
+      "Music video for his new single",
+      "Tour photographer for his US tour",
+      "Visuals (VJ) for his NH7 Weekender set"
+    ],
+    "inbound_source": "Referral from a director",
+    "important_dates": {
+      "first_interaction": "2024-12-01",
+      "last_booking_date": "2025-06-15"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/ritviz",
+      "YouTube": "https://youtube.com/c/RITVIZ"
+    },
+    "notes_and_history": "The manager handles all the logistics, but Ritviz himself is heavily involved in the creative direction. Looks for directors and DoPs who can translate his sound into a unique visual language.",
+    "past_feedback": "Excellent creative experience",
+    "lead_owner": "Priya Sharma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "No, starts with the music"
+  },
+  {
+    "id": "cli_011",
+    "name": "Notion",
+    "type": "MNC",
+    "company_name": "Notion Labs Inc.",
+    "industry": "Technology",
+    "sub_industry": "SaaS / Productivity Tools",
+    "website": "https://notion.so",
+    "headquarters_city": "San Francisco",
+    "operating_cities": ["Global"],
+    "contact_person": "Camille Ricketts",
+    "designation": "Head of Marketing",
+    "communication": {
+      "preferred_tools": ["Notion", "Slack", "Email"],
+      "tone": "Minimal, Thoughtful, Collaborative",
+      "preferred_work_hours": "PST"
+    },
+    "personality": ["Design-led", "Community-focused"],
+    "brand_style": ["Clean", "Minimalist", "User-centric"],
+    "project_behavior": {
+      "typical_project_frequency": "Ad-hoc",
+      "type_of_briefs_shared": "Extremely detailed Notion docs",
+      "average_scope": "Single-talent (Illustrator, Animator, Template-maker)"
+    },
+    "budgeting": {
+      "approach": "Range-based, values unique skills"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Expert",
+      "location_of_talent": "Global, Remote",
+      "preferred_portfolio_format": "Website, Dribbble, Behance",
+      "language": "English"
+    },
+    "project_history": [
+      "Creating a set of custom illustrations for a new feature launch",
+      "Building a comprehensive 'Content Creator OS' template for Notion"
+    ],
+    "inbound_source": "Content Marketing (Our Blog Post)",
+    "important_dates": {
+      "first_interaction": "2024-10-20",
+      "last_booking_date": "2025-05-18"
+    },
+    "social_profiles": {
+      "X": "https://twitter.com/notion",
+      "LinkedIn": "https://linkedin.com/company/notionhq"
+    },
+    "notes_and_history": "The team is full of product and design thinkers. They appreciate creatives who are also power users of Notion. The bar for quality is exceptionally high. All communication happens within Notion.",
+    "past_feedback": "Excellent",
+    "lead_owner": "Chloe Davis",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, everything is in Notion"
+  },
+  {
+    "id": "cli_012",
+    "name": "The Bombay Canteen",
+    "type": "SMB",
+    "company_name": "Hunger Inc. Hospitality",
+    "industry": "F&B",
+    "sub_industry": "Restaurant",
+    "website": "https://thebombaycanteen.com/",
+    "headquarters_city": "Mumbai",
+    "operating_cities": ["Mumbai"],
+    "contact_person": "Sameer Seth",
+    "designation": "Founder & CEO",
+    "communication": {
+      "preferred_tools": ["Email", "In-person"],
+      "tone": "Warm, Professional, Story-driven",
+      "preferred_work_hours": "IST"
+    },
+    "personality": ["Passionate", "Detail-oriented", "Community-builder"],
+    "brand_style": ["Reimagined Indian", "Nostalgic", "Vibrant"],
+    "project_behavior": {
+      "typical_project_frequency": "Quarterly",
+      "type_of_briefs_shared": "Verbal brief followed by email",
+      "average_scope": "Food Photographer, Food Stylist"
+    },
+    "budgeting": {
+      "approach": "Respectful of creative value"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Pro",
+      "location_of_talent": "Mumbai",
+      "preferred_portfolio_format": "Website, Instagram",
+      "language": "English"
+    },
+    "project_history": [
+      "Menu photoshoot for the new 'Canteen Winter' menu",
+      "Videography for the 'Independence Day Daawat' event"
+    ],
+    "inbound_source": "Referral",
+    "important_dates": {
+      "first_interaction": "2024-05-01",
+      "last_booking_date": "2025-06-05"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/thebombaycanteen",
+      "LinkedIn": "https://linkedin.com/company/hunger-inc-hospitality"
+    },
+    "notes_and_history": "Needs food photographers who can shoot in a natural, un-staged, yet beautiful way. They are all about the story behind the ingredients and the dish.",
+    "past_feedback": "Excellent",
+    "lead_owner": "Priya Sharma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "No, primarily verbal"
+  },
+  {
+    "id": "cli_013",
+    "name": "Ultrahuman",
+    "type": "Startup",
+    "company_name": "Ultrahuman",
+    "industry": "HealthTech",
+    "sub_industry": "Wearables & Metabolic Health",
+    "website": "https://ultrahuman.com",
+    "headquarters_city": "Bangalore",
+    "operating_cities": ["Bangalore", "Global"],
+    "contact_person": "Vatsal Singhal",
+    "designation": "Co-founder, Head of Product",
+    "communication": {
+      "preferred_tools": ["Slack"],
+      "tone": "Direct, Technical, Performance-focused",
+      "preferred_work_hours": "IST, flexible"
+    },
+    "personality": ["Data-driven", "Product-led", "Ambitious"],
+    "brand_style": ["Futuristic", "Minimal", "Data-centric"],
+    "project_behavior": {
+      "typical_project_frequency": "Monthly",
+      "type_of_briefs_shared": "Figma files, product notes",
+      "average_scope": "Product Videographer, Lifestyle Photographer"
+    },
+    "budgeting": {
+      "approach": "Flexible, ROI-focused"
+    },
+    "client_tier": "High-frequency",
+    "talent_preferences": {
+      "experience_level": "Pro",
+      "location_of_talent": "Bangalore, or willing to travel",
+      "preferred_portfolio_format": "Website",
+      "language": "English"
+    },
+    "project_history": [
+      "Launch video for the Ultrahuman Ring AIR",
+      "Lifestyle shoot showing users interacting with the app and device"
+    ],
+    "inbound_source": "LinkedIn",
+    "important_dates": {
+      "first_interaction": "2024-08-15",
+      "last_booking_date": "2025-05-25"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/ultrahumanhq",
+      "LinkedIn": "https://linkedin.com/company/ultrahuman"
+    },
+    "notes_and_history": "Needs creatives who can understand and visualize complex health data in a simple, aspirational way. Think Apple-level product marketing.",
+    "past_feedback": "Good",
+    "lead_owner": "Rahul Verma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, Figma and PRDs"
+  },
+  {
+    "id": "cli_014",
+    "name": "The Juggernaut",
+    "type": "Media",
+    "company_name": "The Juggernaut",
+    "industry": "Media",
+    "sub_industry": "Digital Publication",
+    "website": "https://www.thejuggernaut.com/",
+    "headquarters_city": "New York",
+    "operating_cities": ["New York", "Remote"],
+    "contact_person": "Snigdha Sur",
+    "designation": "Founder & CEO",
+    "communication": {
+      "preferred_tools": ["Email", "Asana"],
+      "tone": "Editorial, Thoughtful, Professional",
+      "preferred_work_hours": "EST"
+    },
+    "personality": ["Mission-driven", "Intellectual"],
+    "brand_style": ["Smart", "South Asian", "Nuanced"],
+    "project_behavior": {
+      "typical_project_frequency": "Monthly",
+      "type_of_briefs_shared": "Article drafts needing illustration",
+      "average_scope": "Single-talent (Illustrator, Photo Editor)"
+    },
+    "budgeting": {
+      "approach": "Fixed per-piece rate"
+    },
+    "client_tier": "High-frequency",
+    "talent_preferences": {
+      "experience_level": "Mid-level to Pro",
+      "location_of_talent": "Global, preference for South Asian artists",
+      "preferred_portfolio_format": "Website, Instagram",
+      "language": "English"
+    },
+    "project_history": [
+      "Editorial illustration for a long-form story on diaspora identity",
+      "Photo research and licensing for a historical piece"
+    ],
+    "inbound_source": "Instagram (saw an artist we rep)",
+    "important_dates": {
+      "first_interaction": "2024-07-30",
+      "last_booking_date": "2025-06-30"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/thejuggernaut",
+      "X": "https://twitter.com/bethejuggernaut"
+    },
+    "notes_and_history": "Looking for illustrators with a strong conceptual style who can read a complex story and create a compelling, non-literal visual. Respectful of creative interpretation.",
+    "past_feedback": "Excellent",
+    "lead_owner": "Chloe Davis",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, article text in Google Docs"
+  },
+  {
+    "id": "cli_015",
+    "name": "Rohan Arora",
+    "type": "Individual",
+    "company_name": null,
+    "industry": "Finance",
+    "sub_industry": "Venture Capital",
+    "website": null,
+    "headquarters_city": "Austin",
+    "operating_cities": ["Austin"],
+    "contact_person": "Rohan Arora",
+    "designation": "Angel Investor",
+    "communication": {
+      "preferred_tools": ["Text Message", "Email"],
+      "tone": "Casual, Abrupt",
+      "preferred_work_hours": "Anytime"
+    },
+    "personality": ["Decisive", "Time-poor", "Direct"],
+    "brand_style": ["Professional", "Clean", "Modern"],
+    "project_behavior": {
+      "typical_project_frequency": "Ad-hoc",
+      "type_of_briefs_shared": "One-liner text message",
+      "average_scope": "Single-talent (Photographer, Presentation Designer)"
+    },
+    "budgeting": {
+      "approach": "Flexible, pays for speed and quality"
+    },
+    "client_tier": "First-timer",
+    "talent_preferences": {
+      "experience_level": "Pro",
+      "location_of_talent": "Austin",
+      "preferred_portfolio_format": "Website",
+      "language": "English"
+    },
+    "project_history": [
+      "Professional headshots for LinkedIn and conference bios",
+      "Cleaning up a pitch deck design overnight"
+    ],
+    "inbound_source": "Google Search",
+    "important_dates": {
+      "first_interaction": "2025-02-10",
+      "last_booking_date": "2025-05-12"
+    },
+    "social_profiles": {
+      "LinkedIn": "https://linkedin.com/in/rohanarora-example",
+      "X": null
+    },
+    "notes_and_history": "Super last-minute requests. Example: 'Need a photographer for a 9am headshot tomorrow. Let me know who you have.' Willing to pay a premium for reliability and un-prompted professionalism. Hates back-and-forth.",
+    "past_feedback": "Good, appreciates the efficiency",
+    "lead_owner": "Chloe Davis",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "No"
+  },
+  {
+    "id": "cli_016",
+    "name": "Tata Cliq Luxury",
+    "type": "Corporate",
+    "company_name": "Tata Unistore Limited",
+    "industry": "E-commerce",
+    "sub_industry": "Luxury Marketplace",
+    "website": "https://luxury.tatacliq.com/",
+    "headquarters_city": "Mumbai",
+    "operating_cities": ["Pan-India"],
+    "contact_person": "Gitanjali Saxena",
+    "designation": "Chief Business Officer",
+    "communication": {
+      "preferred_tools": ["Email", "Scheduled Calls"],
+      "tone": "Formal, Articulate",
+      "preferred_work_hours": "10 AM - 7 PM IST"
+    },
+    "personality": ["Brand-conscious", "Perfectionist"],
+    "brand_style": ["Luxe", "Sophisticated", "Curated"],
+    "project_behavior": {
+      "typical_project_frequency": "Monthly",
+      "type_of_briefs_shared": "Detailed campaign briefs and brand guidelines",
+      "average_scope": "Full production team for digital campaigns"
+    },
+    "budgeting": {
+      "approach": "High-value, fixed budgets per campaign"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Pro, with luxury fashion experience",
+      "location_of_talent": "Mumbai, Delhi",
+      "preferred_portfolio_format": "Professional Website, PDF deck",
+      "language": "English"
+    },
+    "project_history": [
+      "Digital film for 'The Watch Society'",
+      "Photoshoot for the 'Indian Luxury' edit",
+      "Stylist for an influencer-led campaign"
+    ],
+    "inbound_source": "Agency Referral",
+    "important_dates": {
+      "first_interaction": "2024-03-18",
+      "last_booking_date": "2025-06-20"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/tatacliqluxury",
+      "LinkedIn": "https://linkedin.com/company/tata-cliq"
+    },
+    "notes_and_history": "Expects extremely high production quality. Deep understanding of the luxury consumer is a must. Prefers talent who have worked with international luxury brands before.",
+    "past_feedback": "Excellent",
+    "lead_owner": "Amit Singh",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, very detailed briefs and brand books"
+  },
+  {
+    "id": "cli_017",
+    "name": "The Good Food Institute India",
+    "type": "Non-Profit",
+    "company_name": "The Good Food Institute India",
+    "industry": "Non-Profit",
+    "sub_industry": "Alternative Protein",
+    "website": "https://gfi-india.org/",
+    "headquarters_city": "Mumbai",
+    "operating_cities": ["Mumbai", "Delhi", "Remote"],
+    "contact_person": "Devika Suresh",
+    "designation": "Communications Manager",
+    "communication": {
+      "preferred_tools": ["Email", "Google Meet"],
+      "tone": "Passionate, Informative, Collaborative",
+      "preferred_work_hours": "IST"
+    },
+    "personality": ["Mission-driven", "Resourceful"],
+    "brand_style": ["Scientific", "Hopeful", "Professional"],
+    "project_behavior": {
+      "typical_project_frequency": "Ad-hoc",
+      "type_of_briefs_shared": "Well-researched content briefs",
+      "average_scope": "Single-talent (Videographer, Infographic Designer)"
+    },
+    "budgeting": {
+      "approach": "Fixed, grant-dependent budgets"
+    },
+    "client_tier": "High-frequency",
+    "talent_preferences": {
+      "experience_level": "Mid-level",
+      "location_of_talent": "Remote",
+      "preferred_portfolio_format": "Website, Behance",
+      "language": "English"
+    },
+    "project_history": [
+      "Animated explainer video on cellular agriculture",
+      "Designing the annual 'State of the Industry' report",
+      "Event photography for the Smart Protein Summit"
+    ],
+    "inbound_source": "LinkedIn",
+    "important_dates": {
+      "first_interaction": "2024-09-05",
+      "last_booking_date": "2025-05-15"
+    },
+    "social_profiles": {
+      "LinkedIn": "https://linkedin.com/company/good-food-institute-india",
+      "X": "https://twitter.com/gfindia"
+    },
+    "notes_and_history": "Looks for creatives who are genuinely interested in their mission of promoting alternative proteins. Needs talent who can distill complex scientific information into accessible and engaging content.",
+    "past_feedback": "Good",
+    "lead_owner": "Priya Sharma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, detailed briefs with research links"
+  },
+  {
+    "id": "cli_018",
+    "name": "Oura",
+    "type": "MNC",
+    "company_name": "Oura Health Oy",
+    "industry": "HealthTech",
+    "sub_industry": "Wearables",
+    "website": "https://ouraring.com/",
+    "headquarters_city": "Oulu, Finland",
+    "operating_cities": ["Global", "US focus"],
+    "contact_person": "Karina Givargisoff",
+    "designation": "VP, Brand & Creative",
+    "communication": {
+      "preferred_tools": ["Slack", "Asana"],
+      "tone": "Calm, Scientific, Aspirational",
+      "preferred_work_hours": "PST"
+    },
+    "personality": ["Data-driven", "Wellness-focused"],
+    "brand_style": ["Minimal", "Human", "Scientific"],
+    "project_behavior": {
+      "typical_project_frequency": "Quarterly",
+      "type_of_briefs_shared": "Comprehensive campaign briefs",
+      "average_scope": "Full production team for lifestyle shoots"
+    },
+    "budgeting": {
+      "approach": "High-value, range-based"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Pro",
+      "location_of_talent": "Los Angeles, New York",
+      "preferred_portfolio_format": "Website, Vimeo",
+      "language": "English"
+    },
+    "project_history": [
+      "Lifestyle photoshoot featuring diverse users in their daily routines",
+      "Social media video campaign on the science of sleep"
+    ],
+    "inbound_source": "Direct Inquiry",
+    "important_dates": {
+      "first_interaction": "2024-11-22",
+      "last_booking_date": "2025-06-11"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/ouraring",
+      "LinkedIn": "https://linkedin.com/company/ouraring"
+    },
+    "notes_and_history": "Needs creatives who can capture authentic, non-cheesy moments of wellness and health. High premium on talent who live the brand ethos. Casting is extremely important to them.",
+    "past_feedback": "Excellent",
+    "lead_owner": "Chloe Davis",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, detailed briefs and asset libraries"
+  },
+  {
+    "id": "cli_019",
+    "name": "Chirag Malhotra",
+    "type": "Individual",
+    "company_name": "Self-employed",
+    "industry": "Real Estate",
+    "sub_industry": "Luxury Real Estate Agent",
+    "website": "https://chiragmalhotra.realty",
+    "headquarters_city": "Delhi",
+    "operating_cities": ["Delhi", "Gurgaon"],
+    "contact_person": "Chirag Malhotra",
+    "designation": "Agent",
+    "communication": {
+      "preferred_tools": ["WhatsApp Voice Notes"],
+      "tone": "Salesy, Urgent, High-energy",
+      "preferred_work_hours": "All hours"
+    },
+    "personality": ["Relationship-driven", "Image-conscious", "Price-sensitive"],
+    "brand_style": ["Premium", "Successful", "Trustworthy"],
+    "project_behavior": {
+      "typical_project_frequency": "Weekly",
+      "type_of_briefs_shared": "WhatsApp voice note with a property address",
+      "average_scope": "Single-talent (Videographer with drone)"
+    },
+    "budgeting": {
+      "approach": "Fixed per property, tries to negotiate"
+    },
+    "client_tier": "High-frequency",
+    "talent_preferences": {
+      "experience_level": "Mid-level, but reliable",
+      "location_of_talent": "Delhi NCR",
+      "preferred_portfolio_format": "Instagram, YouTube",
+      "language": "Hindi, English"
+    },
+    "project_history": [
+      "Weekly walkthrough videos of luxury apartments in Gurgaon",
+      "Drone footage of farmhouses in Chattarpur"
+    ],
+    "inbound_source": "Google",
+    "important_dates": {
+      "first_interaction": "2024-02-01",
+      "last_booking_date": "2025-07-08"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/chiragdelhirealty",
+      "YouTube": "https://youtube.com/c/ChiragMalhotraRealty"
+    },
+    "notes_and_history": "The 'quirky' client. Briefs are exclusively 2-minute long voice notes sent at random hours. Needs a videographer who can take these minimal instructions and produce a polished property tour video within 48 hours. Always pays on time.",
+    "past_feedback": "Good, but chaotic communication",
+    "lead_owner": "Rahul Verma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "No"
+  },
+  {
+    "id": "cli_020",
+    "name": "Fable & Mane",
+    "type": "Startup",
+    "company_name": "Fable & Mane",
+    "industry": "Beauty",
+    "sub_industry": "Haircare",
+    "website": "https://fableandmane.com/",
+    "headquarters_city": "London",
+    "operating_cities": ["London", "New York", "Global"],
+    "contact_person": "Nikita Mehta",
+    "designation": "Co-founder",
+    "communication": {
+      "preferred_tools": ["Email", "Slack"],
+      "tone": "Spiritual, Authentic, Visionary",
+      "preferred_work_hours": "GMT"
+    },
+    "personality": ["Story-driven", "Aesthetic-focused"],
+    "brand_style": ["Lush", "Indian-heritage", "Sensorial"],
+    "project_behavior": {
+      "typical_project_frequency": "Quarterly",
+      "type_of_briefs_shared": "Visual moodboards, brand stories",
+      "average_scope": "Full team for campaign shoots"
+    },
+    "budgeting": {
+      "approach": "Flexible, values creative vision"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Pro",
+      "location_of_talent": "London, Mumbai",
+      "preferred_portfolio_format": "Website",
+      "language": "English"
+    },
+    "project_history": [
+      "Campaign shoot for new MahaMane Smooth & Shine Hair Oil",
+      "Behind-the-scenes content from ingredient sourcing trips in India"
+    ],
+    "inbound_source": "Referral",
+    "important_dates": {
+      "first_interaction": "2024-10-01",
+      "last_booking_date": "2025-06-02"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/fableandmane",
+      "LinkedIn": "https://linkedin.com/company/fable-&-mane"
+    },
+    "notes_and_history": "Deeply connected to the brand's Indian roots. Looks for creatives who can authentically capture the blend of ancient rituals and modern luxury. Prefers working with talent of South Asian origin.",
+    "past_feedback": "Excellent",
+    "lead_owner": "Priya Sharma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, moodboards and brand decks"
+  },
+  {
+    "id": "cli_021",
+    "name": "CRED",
+    "type": "Startup",
+    "company_name": "Dreamplug Technologies Pvt Ltd",
+    "industry": "FinTech",
+    "sub_industry": "Payments & Rewards",
+    "website": "https://cred.club",
+    "headquarters_city": "Bangalore",
+    "operating_cities": ["Bangalore"],
+    "contact_person": "Kunal Shah",
+    "designation": "Founder",
+    "communication": {
+      "preferred_tools": ["Email"],
+      "tone": "Witty, Minimal, Visionary",
+      "preferred_work_hours": "N/A"
+    },
+    "personality": ["Design-led", "Perfectionist", "Unconventional"],
+    "brand_style": ["Nostalgic", "Witty", "Premium"],
+    "project_behavior": {
+      "typical_project_frequency": "Ad-hoc",
+      "type_of_briefs_shared": "A single sentence idea from Kunal",
+      "average_scope": "Top-tier ad film production house"
+    },
+    "budgeting": {
+      "approach": "No-bar, idea is everything"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Best in the country (Directors, Writers)",
+      "location_of_talent": "Mumbai, Bangalore",
+      "preferred_portfolio_format": "Reel of past ad films",
+      "language": "English, Hindi"
+    },
+    "project_history": [
+      "IPL ad campaign featuring 90s celebrities",
+      "CRED store product intro videos"
+    ],
+    "inbound_source": "Direct (Kunal's Office)",
+    "important_dates": {
+      "first_interaction": "2024-02-20",
+      "last_booking_date": "2025-03-10"
+    },
+    "social_profiles": {
+      "X": "https://twitter.com/cred_club",
+      "LinkedIn": "https://linkedin.com/company/cred-club"
+    },
+    "notes_and_history": "Famously high standards and cryptic briefs. The creative team needs to be able to take a nugget of an idea and build a world around it. Absolute creative freedom is given to the right team. Highly sought-after client.",
+    "past_feedback": "Iconic work produced",
+    "lead_owner": "Amit Singh",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "No"
+  },
+  {
+    "id": "cli_022",
+    "name": "Brex",
+    "type": "Startup",
+    "company_name": "Brex Inc.",
+    "industry": "FinTech",
+    "sub_industry": "Corporate Credit Cards",
+    "website": "https://brex.com",
+    "headquarters_city": "San Francisco",
+    "operating_cities": ["US"],
+    "contact_person": "Marketing Operations",
+    "designation": "Marketing Manager",
+    "communication": {
+      "preferred_tools": ["Slack", "Asana", "Email"],
+      "tone": "Professional, Efficient",
+      "preferred_work_hours": "PST"
+    },
+    "personality": ["Data-driven", "Process-oriented"],
+    "brand_style": ["Modern", "Techy", "Clean"],
+    "project_behavior": {
+      "typical_project_frequency": "Monthly",
+      "type_of_briefs_shared": "Asana tickets with clear requirements",
+      "average_scope": "Single-talent (Graphic Designer, Video Editor)"
+    },
+    "budgeting": {
+      "approach": "Fixed rates for specific tasks"
+    },
+    "client_tier": "High-frequency",
+    "talent_preferences": {
+      "experience_level": "Mid-level, but fast and reliable",
+      "location_of_talent": "Remote (Global)",
+      "preferred_portfolio_format": "Behance, Drive Portfolio",
+      "language": "English"
+    },
+    "project_history": [
+      "Creating social media ad variations from a master file",
+      "Editing customer testimonial videos",
+      "Designing one-pagers and ebooks"
+    ],
+    "inbound_source": "Our Website",
+    "important_dates": {
+      "first_interaction": "2024-08-08",
+      "last_booking_date": "2025-07-09"
+    },
+    "social_profiles": {
+      "LinkedIn": "https://linkedin.com/company/brexhq",
+      "X": "https://twitter.com/brex"
+    },
+    "notes_and_history": "Very process-driven client. Needs creatives who can work within established brand templates and deliver quickly. Not a lot of creative freedom, but provides a steady stream of work. Ideal for efficient freelancers.",
+    "past_feedback": "Good, reliable partner",
+    "lead_owner": "Chloe Davis",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, templates and brand guides"
+  },
+  {
+    "id": "cli_023",
+    "name": "Ahilya by the Sea",
+    "type": "SMB",
+    "company_name": "Ahilya by the Sea",
+    "industry": "Hospitality",
+    "sub_industry": "Boutique Hotel",
+    "website": "https://ahilyabythesea.com/",
+    "headquarters_city": "Goa",
+    "operating_cities": ["Goa"],
+    "contact_person": "Leela Ellis",
+    "designation": "Owner/Manager",
+    "communication": {
+      "preferred_tools": ["Email"],
+      "tone": "Gracious, Elegant, Personal",
+      "preferred_work_hours": "IST Mornings"
+    },
+    "personality": ["Aesthetic-focused", "Detail-oriented"],
+    "brand_style": ["Quiet Luxury", "Heritage", "Serene"],
+    "project_behavior": {
+      "typical_project_frequency": "Twice a year",
+      "type_of_briefs_shared": "Phone call and a follow-up email",
+      "average_scope": "Photographer, maybe a stylist"
+    },
+    "budgeting": {
+      "approach": "Values quality, needs consultation"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Pro",
+      "location_of_talent": "Goa-based or willing to travel",
+      "preferred_portfolio_format": "Website",
+      "language": "English"
+    },
+    "project_history": [
+      "Lifestyle and architectural shoot for the hotel's website refresh",
+      "Content for a feature in Conde Nast Traveller"
+    ],
+    "inbound_source": "Referral from a magazine editor",
+    "important_dates": {
+      "first_interaction": "2024-11-01",
+      "last_booking_date": "2025-04-20"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/ahilyabythesea"
+    },
+    "notes_and_history": "The property is the hero. They need a photographer who understands light and shadow and can capture the soul of the place. No hard-sell marketing, just pure, quiet elegance. The owner has a very refined taste.",
+    "past_feedback": "Excellent",
+    "lead_owner": "Priya Sharma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "No"
+  },
+  {
+    "id": "cli_024",
+    "name": "Paytm",
+    "type": "Corporate",
+    "company_name": "One97 Communications",
+    "industry": "FinTech",
+    "sub_industry": "Digital Payments",
+    "website": "https://paytm.com/",
+    "headquarters_city": "Noida",
+    "operating_cities": ["Pan-India"],
+    "contact_person": "Senior Marketing Manager",
+    "designation": "Senior Marketing Manager",
+    "communication": {
+      "preferred_tools": ["Email", "Microsoft Teams"],
+      "tone": "Corporate, Formal",
+      "preferred_work_hours": "10 AM - 7 PM IST"
+    },
+    "personality": ["Data-driven", "Price-sensitive", "Hierarchical"],
+    "brand_style": ["Mass-market", "Functional", "Blue"],
+    "project_behavior": {
+      "typical_project_frequency": "Monthly",
+      "type_of_briefs_shared": "Formal PPT briefs",
+      "average_scope": "Full team for digital ads"
+    },
+    "budgeting": {
+      "approach": "Fixed, requires multiple quotes"
+    },
+    "client_tier": "High-volume",
+    "talent_preferences": {
+      "experience_level": "Agency/Pro team",
+      "location_of_talent": "Delhi NCR",
+      "preferred_portfolio_format": "Company Deck",
+      "language": "English, Hindi"
+    },
+    "project_history": [
+      "Digital ad for UPI Lite feature",
+      "Explainer videos for merchants",
+      "Photography for 'Paytm Karo' hoardings"
+    ],
+    "inbound_source": "LinkedIn Outreach",
+    "important_dates": {
+      "first_interaction": "2024-01-25",
+      "last_booking_date": "2025-06-18"
+    },
+    "social_profiles": {
+      "X": "https://twitter.com/paytm",
+      "LinkedIn": "https://linkedin.com/company/paytm"
+    },
+    "notes_and_history": "A very typical large corporate client. Expect multiple layers of approval, a focus on cost-saving, and adherence to strict brand guidelines. Briefs can be very prescriptive. Good for consistent, large-scale work.",
+    "past_feedback": "Satisfactory, but process-heavy",
+    "lead_owner": "Amit Singh",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, detailed briefs and brand books"
+  },
+  {
+    "id": "cli_025",
+    "name": "Sarah Guo / Conviction",
+    "type": "Individual",
+    "company_name": "Conviction",
+    "industry": "Finance",
+    "sub_industry": "Venture Capital",
+    "website": "https://conviction.com/",
+    "headquarters_city": "San Francisco",
+    "operating_cities": ["San Francisco", "Remote"],
+    "contact_person": "Sarah Guo",
+    "designation": "Founder",
+    "communication": {
+      "preferred_tools": ["Email", "Telegram"],
+      "tone": "Intellectual, Direct, Busy",
+      "preferred_work_hours": "PST"
+    },
+    "personality": ["Visionary", "Time-poor"],
+    "brand_style": ["Insightful", "Founder-focused", "Minimalist"],
+    "project_behavior": {
+      "typical_project_frequency": "Ad-hoc",
+      "type_of_briefs_shared": "Forwarded blog post draft",
+      "average_scope": "Single-talent (Graphic Designer, Presentation Designer)"
+    },
+    "budgeting": {
+      "approach": "Pays for quality, no-fuss"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Expert",
+      "location_of_talent": "Remote",
+      "preferred_portfolio_format": "Website",
+      "language": "English"
+    },
+    "project_history": [
+      "Designing charts and graphics for AI-related blog posts",
+      "Creating a keynote presentation template for an upcoming talk"
+    ],
+    "inbound_source": "Referral from a portfolio founder",
+    "important_dates": {
+      "first_interaction": "2025-02-01",
+      "last_booking_date": "2025-05-22"
+    },
+    "social_profiles": {
+      "X": "https://twitter.com/saranormous",
+      "LinkedIn": "https://linkedin.com/in/sarah-guo-conviction"
+    },
+    "notes_and_history": "Needs a designer who can think like a VC. The ability to visualize complex data and market maps is key. High autonomy is given; the designer is expected to read the post and propose visuals, not wait for instructions.",
+    "past_feedback": "Excellent",
+    "lead_owner": "Chloe Davis",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, Google Docs"
+  },
+  {
+    "id": "cli_026",
+    "name": "Paper Boat",
+    "type": "Corporate",
+    "company_name": "Hector Beverages Pvt. Ltd.",
+    "industry": "F&B",
+    "sub_industry": "Beverages",
+    "website": "https://www.paperboatdrinks.com/",
+    "headquarters_city": "Bangalore",
+    "operating_cities": ["Pan-India"],
+    "contact_person": "Marketing Head",
+    "designation": "VP, Marketing",
+    "communication": {
+      "preferred_tools": ["Email"],
+      "tone": "Nostalgic, Story-driven, Warm",
+      "preferred_work_hours": "IST"
+    },
+    "personality": ["Creative-led", "Brand-proud"],
+    "brand_style": ["Childhood", "Memories", "Authentic Indian"],
+    "project_behavior": {
+      "typical_project_frequency": "Per Campaign",
+      "type_of_briefs_shared": "Story-based briefs",
+      "average_scope": "Ad Film Director, Illustrator"
+    },
+    "budgeting": {
+      "approach": "High-value, campaign-based"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Top-tier",
+      "location_of_talent": "Mumbai, Bangalore",
+      "preferred_portfolio_format": "Ad Film Reel, Behance",
+      "language": "English, Hindi"
+    },
+    "project_history": [
+      "Animated short film for Diwali",
+      "Series of illustrations for their 'Memories' content series"
+    ],
+    "inbound_source": "Direct Inquiry",
+    "important_dates": {
+      "first_interaction": "2024-06-11",
+      "last_booking_date": "2025-01-30"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/paperboatdrinks",
+      "X": "https://twitter.com/paperboatdrinks"
+    },
+    "notes_and_history": "A dream client for storytellers. They look for creatives who can connect with the brand's core emotion of nostalgia and childhood memories. Very collaborative and respectful of the creative process.",
+    "past_feedback": "Excellent",
+    "lead_owner": "Priya Sharma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, moodboards and stories"
+  },
+  {
+    "id": "cli_027",
+    "name": "Mehta & Sons Jewelers",
+    "type": "SMB",
+    "company_name": "Mehta & Sons",
+    "industry": "Retail",
+    "sub_industry": "Jewelry",
+    "website": "https://mehtasons.example.com",
+    "headquarters_city": "Chicago",
+    "operating_cities": ["Chicago"],
+    "contact_person": "Raj Mehta",
+    "designation": "Owner",
+    "communication": {
+      "preferred_tools": ["Phone Call", "In-person"],
+      "tone": "Traditional, Formal",
+      "preferred_work_hours": "CST Business Hours"
+    },
+    "personality": ["Price-sensitive", "Trust-based"],
+    "brand_style": ["Classic", "Family-owned", "Elegant"],
+    "project_behavior": {
+      "typical_project_frequency": "Ad-hoc",
+      "type_of_briefs_shared": "Verbal request",
+      "average_scope": "Single-talent (Product Photographer)"
+    },
+    "budgeting": {
+      "approach": "Fixed, looks for a good deal"
+    },
+    "client_tier": "First-timer",
+    "talent_preferences": {
+      "experience_level": "Mid-level",
+      "location_of_talent": "Chicago",
+      "preferred_portfolio_format": "Website",
+      "language": "English"
+    },
+    "project_history": [
+      "Product photography of their new diamond collection for the website"
+    ],
+    "inbound_source": "Google Search ('jewelry photographer chicago')",
+    "important_dates": {
+      "first_interaction": "2025-03-10",
+      "last_booking_date": "2025-04-05"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/mehtasonschicago"
+    },
+    "notes_and_history": "A traditional, family-run business owner who is new to digital marketing. Needs a patient photographer who can guide him through the process. Very focused on getting clean, high-quality images for his catalog.",
+    "past_feedback": "N/A",
+    "lead_owner": "Chloe Davis",
+    "is_repeat_client": false,
+    "attachments_docs_provided": "No"
+  },
+  {
+    "id": "cli_028",
+    "name": "Lenskart",
+    "type": "Corporate",
+    "company_name": "Lenskart Solutions Pvt. Ltd.",
+    "industry": "Retail",
+    "sub_industry": "Eyewear",
+    "website": "https://www.lenskart.com/",
+    "headquarters_city": "Gurgaon",
+    "operating_cities": ["Pan-India", "Singapore", "Dubai"],
+    "contact_person": "Performance Marketing Team",
+    "designation": "Digital Marketing Lead",
+    "communication": {
+      "preferred_tools": ["Email", "Google Sheets"],
+      "tone": "Data-focused, Transactional",
+      "preferred_work_hours": "IST"
+    },
+    "personality": ["Data-driven", "ROI-focused", "Fast-paced"],
+    "brand_style": ["Accessible", "Trendy", "Tech-forward"],
+    "project_behavior": {
+      "typical_project_frequency": "Weekly",
+      "type_of_briefs_shared": "Spreadsheet with SKUs and ad concepts",
+      "average_scope": "Single-talent (Graphic Designer for ads)"
+    },
+    "budgeting": {
+      "approach": "Low-cost, high-volume"
+    },
+    "client_tier": "High-volume",
+    "talent_preferences": {
+      "experience_level": "Beginner to Mid-level",
+      "location_of_talent": "Remote",
+      "preferred_portfolio_format": "Drive link with past ad creatives",
+      "language": "English"
+    },
+    "project_history": [
+      "Creating 50 variations of a Facebook ad for a 'Buy 1 Get 1' offer",
+      "Designing banners for the mobile app"
+    ],
+    "inbound_source": "Our Website (Bulk work inquiry)",
+    "important_dates": {
+      "first_interaction": "2024-10-10",
+      "last_booking_date": "2025-07-10"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/lenskart",
+      "LinkedIn": "https://linkedin.com/company/lenskart-com"
+    },
+    "notes_and_history": "Needs designers who are extremely fast with tools like Canva or Figma and can churn out a high volume of ad creatives based on templates. The focus is 100% on performance metrics, not creative awards.",
+    "past_feedback": "Good for reliable, volume work",
+    "lead_owner": "Rahul Verma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, spreadsheets and templates"
+  },
+  {
+    "id": "cli_029",
+    "name": "Kriti Sharma Yoga",
+    "type": "Individual",
+    "company_name": null,
+    "industry": "Wellness",
+    "sub_industry": "Yoga Instructor",
+    "website": "https://kritisharmayoga.com",
+    "headquarters_city": "Rishikesh",
+    "operating_cities": ["Rishikesh", "Online"],
+    "contact_person": "Kriti Sharma",
+    "designation": "Instructor",
+    "communication": {
+      "preferred_tools": ["WhatsApp", "Instagram"],
+      "tone": "Calm, Spiritual",
+      "preferred_work_hours": "Flexible"
+    },
+    "personality": ["Authentic", "Community-focused"],
+    "brand_style": ["Natural", "Serene", "Spiritual"],
+    "project_behavior": {
+      "typical_project_frequency": "Ad-hoc",
+      "type_of_briefs_shared": "Informal chat",
+      "average_scope": "Photographer, Videographer"
+    },
+    "budgeting": {
+      "approach": "Barter / Small budget"
+    },
+    "client_tier": "First-timer",
+    "talent_preferences": {
+      "experience_level": "Beginner / Enthusiast",
+      "location_of_talent": "Rishikesh",
+      "preferred_portfolio_format": "Instagram",
+      "language": "English, Hindi"
+    },
+    "project_history": [
+      "Photoshoot for her new website and Instagram page",
+      "Short video for her online yoga course"
+    ],
+    "inbound_source": "Instagram",
+    "important_dates": {
+      "first_interaction": "2025-04-01",
+      "last_booking_date": "2025-05-10"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/kritisharmayoga"
+    },
+    "notes_and_history": "A client with a very small budget, but offers a great opportunity for a new photographer to build their portfolio. Sometimes offers accommodation/yoga classes as part of the payment. Looking for someone who connects with her vibe.",
+    "past_feedback": "N/A",
+    "lead_owner": "Priya Sharma",
+    "is_repeat_client": false,
+    "attachments_docs_provided": "No"
+  },
+  {
+    "id": "cli_030",
+    "name": "Studio Dumbar",
+    "type": "Agency",
+    "company_name": "Studio Dumbar (part of Dept)",
+    "industry": "Design",
+    "sub_industry": "Branding & Design Agency",
+    "website": "https://studiodumbar.com/",
+    "headquarters_city": "Rotterdam",
+    "operating_cities": ["Rotterdam", "Global"],
+    "contact_person": "Liza Enebeis",
+    "designation": "Creative Director",
+    "communication": {
+      "preferred_tools": ["Email"],
+      "tone": "Direct, Design-centric, Professional",
+      "preferred_work_hours": "CET"
+    },
+    "personality": ["Design-led", "Experimental", "Perfectionist"],
+    "brand_style": ["Bold", "Typographic", "Dynamic"],
+    "project_behavior": {
+      "typical_project_frequency": "Ad-hoc",
+      "type_of_briefs_shared": "Request for a specific skill",
+      "average_scope": "Freelance Motion Designer, Specialist Type Designer"
+    },
+    "budgeting": {
+      "approach": "Project-based, respects talent"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Expert",
+      "location_of_talent": "Global, Remote",
+      "preferred_portfolio_format": "Website",
+      "language": "English"
+    },
+    "project_history": [
+      "Collaboration with a motion designer for a dynamic identity project",
+      "Commissioning a custom typeface for a client"
+    ],
+    "inbound_source": "Direct Inquiry (they saw a portfolio)",
+    "important_dates": {
+      "first_interaction": "2024-12-15",
+      "last_booking_date": "2025-04-28"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/studiodumbar",
+      "LinkedIn": "https://linkedin.com/company/studio-dumbar"
+    },
+    "notes_and_history": "An iconic design studio. They don't outsource full projects, but collaborate with freelance specialists who are at the top of their game. Getting a project with them is a huge validation for any designer.",
+    "past_feedback": "Excellent creative collaboration",
+    "lead_owner": "Chloe Davis",
+    "is_repeat_client": false,
+    "attachments_docs_provided": "Yes, very specific briefs"
+  },
+  {
+    "id": "cli_031",
+    "name": "Nithin Kamath (Zerodha/Rainmatter)",
+    "type": "Individual",
+    "company_name": "Zerodha / Rainmatter",
+    "industry": "Finance / Health",
+    "sub_industry": "FinTech / Climate Tech",
+    "website": "https://nithinkamath.me/",
+    "headquarters_city": "Bangalore",
+    "operating_cities": ["Bangalore"],
+    "contact_person": "Nithin Kamath's Office",
+    "designation": "Executive Assistant",
+    "communication": {
+      "preferred_tools": ["Email"],
+      "tone": "Concise, Thoughtful",
+      "preferred_work_hours": "IST"
+    },
+    "personality": ["Mission-driven", "Health-conscious", "Introverted"],
+    "brand_style": ["Simple", "Authentic", "Informative"],
+    "project_behavior": {
+      "typical_project_frequency": "Ad-hoc",
+      "type_of_briefs_shared": "Blog post link needing visuals",
+      "average_scope": "Single-talent (Photographer for social cause, Illustrator)"
+    },
+    "budgeting": {
+      "approach": "Philanthropic / Fair market value"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Pro",
+      "location_of_talent": "Bangalore / Relevant location",
+      "preferred_portfolio_format": "Website",
+      "language": "English"
+    },
+    "project_history": [
+      "Documentary photographer for a Rainmatter Foundation project on ecology",
+      "Illustrations for a personal blog post about health and fitness"
+    ],
+    "inbound_source": "Referral",
+    "important_dates": {
+      "first_interaction": "2024-11-05",
+      "last_booking_date": "2025-06-12"
+    },
+    "social_profiles": {
+      "X": "https://twitter.com/nithin0dha",
+      "LinkedIn": "https://linkedin.com/in/nithin-kamath-8113624"
+    },
+    "notes_and_history": "Projects are often for his non-profit foundation or personal blog, focusing on health, climate, and wellness. Seeks authentic storytellers, not slick marketers. Communication is minimal and to the point.",
+    "past_feedback": "Good, mission-aligned work",
+    "lead_owner": "Priya Sharma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, links to docs"
+  },
+  {
+    "id": "cli_032",
+    "name": "GOAT",
+    "type": "MNC",
+    "company_name": "GOAT Group",
+    "industry": "E-commerce",
+    "sub_industry": "Sneakers & Apparel Marketplace",
+    "website": "https://www.goat.com/",
+    "headquarters_city": "Los Angeles",
+    "operating_cities": ["Global"],
+    "contact_person": "Sen Sugano",
+    "designation": "VP, Brand",
+    "communication": {
+      "preferred_tools": ["Email", "Slack"],
+      "tone": "Cultural, Edgy, Minimal",
+      "preferred_work_hours": "PST"
+    },
+    "personality": ["Creative-led", "Taste-maker"],
+    "brand_style": ["Authentic", "Street-culture", "Elevated"],
+    "project_behavior": {
+      "typical_project_frequency": "Monthly",
+      "type_of_briefs_shared": "Creative deck with references",
+      "average_scope": "Full team for editorial shoots (Photo, Video, Stylist)"
+    },
+    "budgeting": {
+      "approach": "High-value, respects artistry"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Pro, culturally connected",
+      "location_of_talent": "New York, LA, Tokyo, London",
+      "preferred_portfolio_format": "Website",
+      "language": "English"
+    },
+    "project_history": [
+      "Editorial shoot for a rare sneaker release",
+      "Video series featuring emerging artists and their sneaker collections"
+    ],
+    "inbound_source": "Direct Inquiry",
+    "important_dates": {
+      "first_interaction": "2024-09-19",
+      "last_booking_date": "2025-05-30"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/goat",
+      "LinkedIn": "https://linkedin.com/company/goat-group"
+    },
+    "notes_and_history": "Needs talent that is deeply embedded in sneaker and streetwear culture. Authenticity is non-negotiable. They hate anything that looks like a generic ad. Looks for photographers/directors with a strong, unique point of view.",
+    "past_feedback": "Excellent",
+    "lead_owner": "Chloe Davis",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, creative decks"
+  },
+  {
+    "id": "cli_033",
+    "name": "Acko General Insurance",
+    "type": "Corporate",
+    "company_name": "Acko General Insurance",
+    "industry": "FinTech",
+    "sub_industry": "Insurtech",
+    "website": "https://www.acko.com/",
+    "headquarters_city": "Bangalore",
+    "operating_cities": ["Pan-India"],
+    "contact_person": "Ashish Mishra",
+    "designation": "EVP Marketing",
+    "communication": {
+      "preferred_tools": ["Email", "Teams"],
+      "tone": "Humorous, Direct, Fast",
+      "preferred_work_hours": "IST"
+    },
+    "personality": ["Data-driven", "Willing to experiment"],
+    "brand_style": ["Youthful", "Humorous", "Transparent"],
+    "project_behavior": {
+      "typical_project_frequency": "Monthly",
+      "type_of_briefs_shared": "Problem-statement briefs",
+      "average_scope": "Digital ad film teams, social media content creators"
+    },
+    "budgeting": {
+      "approach": "Flexible, ROI-driven"
+    },
+    "client_tier": "High-frequency",
+    "talent_preferences": {
+      "experience_level": "Pro",
+      "location_of_talent": "Mumbai, Bangalore",
+      "preferred_portfolio_format": "Reel, Website",
+      "language": "English, Hindi"
+    },
+    "project_history": [
+      "Digital ad campaign featuring popular comedians",
+      "Series of 'myth-busting' insurance videos for YouTube"
+    ],
+    "inbound_source": "Referral",
+    "important_dates": {
+      "first_interaction": "2024-07-07",
+      "last_booking_date": "2025-06-25"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/ackoinsurance",
+      "LinkedIn": "https://linkedin.com/company/acko-general-insurance"
+    },
+    "notes_and_history": "Known for their witty and humorous marketing. They look for writers and directors who can make a 'boring' topic like insurance engaging and funny for a young audience. They move fast and are decisive.",
+    "past_feedback": "Good, fun projects",
+    "lead_owner": "Rahul Verma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, but they are open to ideas"
+  },
+  {
+    "id": "cli_034",
+    "name": "Alo Yoga",
+    "type": "Startup",
+    "industry": "Fashion",
+    "sub_industry": "Athleisure",
+    "headquarters_city": "Los Angeles",
+    "operating_cities": ["Los Angeles", "New York", "Global"],
+    "contact_person": "Influencer Marketing Manager",
+    "designation": "Manager",
+    "website": "https://www.aloyoga.com/",
+    "communication": {
+      "preferred_tools": ["Email", "Instagram DM"],
+      "tone": "visionary, aspirational"
+    },
+    "personality_traits": ["decisive", "creative-led", "trend-focused"],
+    "brand_style_keywords": ["mindful", "luxurious", "studio-to-street"],
+    "client_tier": "high-value",
+    "budgeting": {
+      "approach": "range-based"
+    },
+    "project_behavior": {
+      "typical_project_frequency": "monthly",
+      "type_of_briefs_shared": "Influencer campaign briefs",
+      "average_scope": "Single-talent (Photographers for influencers)"
+    },
+    "talent_preferences": {
+      "experience_level": "pro",
+      "language": "English",
+      "portfolio_type": "Instagram, Website",
+      "location": "LA, NYC"
+    },
+    "project_history": [
+      "Photoshoot with a major yoga influencer for a new collection launch",
+      "Event photography for a store opening in SoHo"
+    ],
+    "inbound_source": "Instagram",
+    "important_dates": {
+      "first_interaction": "2024-09-10",
+      "last_booking_date": "2025-06-30"
+    },
+    "notes_and_history": "Often facilitates shoots for their network of influencers. Needs photographers who are excellent at making talent feel comfortable and can capture the 'Alo glow'. Fast-paced and always on-trend.",
+    "social_profiles": {
+      "Instagram": "https://instagram.com/aloyoga"
+    },
+    "past_feedback": "Excellent communicator.",
+    "lead_owner": "Chloe Davis",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, detailed campaign briefs"
+  },
+  {
+    "id": "cli_035",
+    "name": "Chennai Super Kings",
+    "type": "Corporate",
+    "company_name": "Chennai Super Kings Cricket Ltd",
+    "industry": "Sports",
+    "sub_industry": "Cricket Franchise",
+    "website": "https://www.chennaisuperkings.com/",
+    "headquarters_city": "Chennai",
+    "operating_cities": ["Chennai", "Pan-India during IPL"],
+    "contact_person": "Social Media Head",
+    "designation": "Head of Digital",
+    "communication": {
+      "preferred_tools": ["WhatsApp", "Email"],
+      "tone": "Passionate, Fan-focused, Urgent",
+      "preferred_work_hours": "Match-day hours (erratic)"
+    },
+    "personality": ["Reactive", "Community-focused"],
+    "brand_style": ["Whistle Podu", "Yellow Army", "Champion"],
+    "project_behavior": {
+      "typical_project_frequency": "Daily during IPL season",
+      "type_of_briefs_shared": "Quick requests on WhatsApp",
+      "average_scope": "Videographer, Editor, Graphic Designer"
+    },
+    "budgeting": {
+      "approach": "Retainer-based for the season"
+    },
+    "client_tier": "High-frequency (seasonal)",
+    "talent_preferences": {
+      "experience_level": "Mid-level, but fast and skilled in sports",
+      "location_of_talent": "Chennai / willing to travel with team",
+      "preferred_portfolio_format": "Instagram (sports content)",
+      "language": "English, Tamil"
+    },
+    "project_history": [
+      "Creating match-day reels for Instagram",
+      "Behind-the-scenes video content from team practice sessions",
+      "Designing player-focused graphics for social media"
+    ],
+    "inbound_source": "Referral",
+    "important_dates": {
+      "first_interaction": "2025-01-20",
+      "last_booking_date": "2025-03-15"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/chennaiipl",
+      "X": "https://twitter.com/chennaiipl"
+    },
+    "notes_and_history": "Needs a content team that can live and breathe with the team during the IPL season. The ability to capture the emotion of the fans and players is critical. Extremely fast-paced and demanding environment.",
+    "past_feedback": "Good, high-pressure work",
+    "lead_owner": "Rahul Verma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "No, briefs are verbal or via text"
+  },
+  {
+    "id": "cli_036",
+    "name": "Ritu Kumar",
+    "type": "Corporate",
+    "company_name": "Ritika Pvt. Ltd.",
+    "industry": "Fashion",
+    "sub_industry": "Luxury Ethnic Wear",
+    "website": "https://www.ritukumar.com/",
+    "headquarters_city": "Gurgaon",
+    "operating_cities": ["Pan-India", "Global"],
+    "contact_person": "Brand Manager",
+    "designation": "Brand Manager",
+    "communication": {
+      "preferred_tools": ["Email"],
+      "tone": "Elegant, Formal, Brand-conscious",
+      "preferred_work_hours": "IST"
+    },
+    "personality": ["Heritage-focused", "Perfectionist"],
+    "brand_style": ["Classic", "Indian Heritage", "Timeless"],
+    "project_behavior": {
+      "typical_project_frequency": "Per Collection",
+      "type_of_briefs_shared": "Detailed campaign briefs",
+      "average_scope": "Full production team"
+    },
+    "budgeting": {
+      "approach": "High-value, fixed"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Top-tier fashion photographers/directors",
+      "location_of_talent": "Mumbai, Delhi",
+      "preferred_portfolio_format": "Website, Magazine editorials",
+      "language": "English"
+    },
+    "project_history": [
+      "Bridal couture campaign shoot",
+      "Lookbook photography for a new pret collection"
+    ],
+    "inbound_source": "Direct Inquiry",
+    "important_dates": {
+      "first_interaction": "2024-05-14",
+      "last_booking_date": "2025-02-10"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/ritukumarhq",
+      "LinkedIn": "https://linkedin.com/company/ritu-kumar"
+    },
+    "notes_and_history": "An iconic brand with a very established aesthetic. They need creatives who understand the legacy of the brand and can produce timeless, elegant imagery. Not a client for experimental or edgy styles.",
+    "past_feedback": "Good",
+    "lead_owner": "Amit Singh",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, brand books and detailed briefs"
+  },
+  {
+    "id": "cli_037",
+    "name": "Shopify",
+    "type": "MNC",
+    "company_name": "Shopify",
+    "industry": "E-commerce",
+    "sub_industry": "E-commerce Platform",
+    "website": "https://www.shopify.com/",
+    "headquarters_city": "Ottawa, Canada",
+    "operating_cities": ["Global"],
+    "contact_person": "Partner Marketing Manager, APAC",
+    "designation": "Manager",
+    "communication": {
+      "preferred_tools": ["Email", "Slack"],
+      "tone": "Entrepreneurial, Empowering, Friendly",
+      "preferred_work_hours": "Flexible, async"
+    },
+    "personality": ["Community-focused", "Content-driven"],
+    "brand_style": ["Clean", "Empowering", "Entrepreneurial"],
+    "project_behavior": {
+      "typical_project_frequency": "Ad-hoc",
+      "type_of_briefs_shared": "Content briefs for success stories",
+      "average_scope": "Photographer and Videographer team"
+    },
+    "budgeting": {
+      "approach": "Standardized rates"
+    },
+    "client_tier": "High-frequency",
+    "talent_preferences": {
+      "experience_level": "Pro",
+      "location_of_talent": "Various cities in India (for merchant stories)",
+      "preferred_portfolio_format": "Website",
+      "language": "English"
+    },
+    "project_history": [
+      "Video testimonial of a successful Shopify merchant based in Jaipur",
+      "Photoshoot of a merchant's workshop and products in Mumbai"
+    ],
+    "inbound_source": "Partner Network",
+    "important_dates": {
+      "first_interaction": "2024-08-21",
+      "last_booking_date": "2025-06-05"
+    },
+    "social_profiles": {
+      "LinkedIn": "https://linkedin.com/company/shopify",
+      "Instagram": "https://instagram.com/shopify"
+    },
+    "notes_and_history": "Needs reliable creative teams across India who can be deployed to shoot merchant success stories. The style is authentic and founder-focused, not overly polished. Need to be good at making real people comfortable on camera.",
+    "past_feedback": "Good, reliable partner",
+    "lead_owner": "Rahul Verma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, standardized creative briefs"
+  },
+  {
+    "id": "cli_038",
+    "name": "a16z Crypto",
+    "type": "VC Firm",
+    "company_name": "Andreessen Horowitz",
+    "industry": "Finance",
+    "sub_industry": "Venture Capital (Crypto)",
+    "website": "https://a16zcrypto.com/",
+    "headquarters_city": "Menlo Park",
+    "operating_cities": ["Global, Remote"],
+    "contact_person": "Content Lead",
+    "designation": "Head of Content",
+    "communication": {
+      "preferred_tools": ["Email"],
+      "tone": "Intellectual, Future-focused, Sharp",
+      "preferred_work_hours": "PST"
+    },
+    "personality": ["Thought-leader", "Research-heavy"],
+    "brand_style": ["Technical", "Authoritative", "Clean"],
+    "project_behavior": {
+      "typical_project_frequency": "Monthly",
+      "type_of_briefs_shared": "Research reports or articles",
+      "average_scope": "Single-talent (Data Visualizer, Illustrator, Animator)"
+    },
+    "budgeting": {
+      "approach": "High-value, pays for expertise"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Expert",
+      "location_of_talent": "Remote",
+      "preferred_portfolio_format": "Website, with examples of data viz",
+      "language": "English"
+    },
+    "project_history": [
+      "Creating animated explainers for complex crypto concepts",
+      "Designing infographics for the 'State of Crypto' report"
+    ],
+    "inbound_source": "Direct Inquiry",
+    "important_dates": {
+      "first_interaction": "2024-12-01",
+      "last_booking_date": "2025-06-19"
+    },
+    "social_profiles": {
+      "X": "https://twitter.com/a16zcrypto"
+    },
+    "notes_and_history": "Needs creatives who are deeply knowledgeable about the crypto space and can create visuals that are both technically accurate and easy to understand. This is not a job for a generalist designer.",
+    "past_feedback": "Excellent",
+    "lead_owner": "Chloe Davis",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, detailed research papers"
+  },
+  {
+    "id": "cli_039",
+    "name": "Unacademy",
+    "type": "Startup",
+    "company_name": "Unacademy",
+    "industry": "EdTech",
+    "sub_industry": "Test Preparation",
+    "website": "https://unacademy.com/",
+    "headquarters_city": "Bangalore",
+    "operating_cities": ["Pan-India"],
+    "contact_person": "Social Media Team",
+    "designation": "Manager",
+    "communication": {
+      "preferred_tools": ["Slack", "Email"],
+      "tone": "Energetic, Meme-heavy, Fast",
+      "preferred_work_hours": "IST"
+    },
+    "personality": ["Trend-chaser", "Aggressive marketer"],
+    "brand_style": ["Aspirational", "Relatable", "High-energy"],
+    "project_behavior": {
+      "typical_project_frequency": "Weekly",
+      "type_of_briefs_shared": "Trending meme format to adapt",
+      "average_scope": "Single-talent (Video Editor, Graphic Designer)"
+    },
+    "budgeting": {
+      "approach": "Fixed, low-to-mid range"
+    },
+    "client_tier": "High-volume",
+    "talent_preferences": {
+      "experience_level": "Mid-level",
+      "location_of_talent": "Remote",
+      "preferred_portfolio_format": "Instagram page (to show speed with trends)",
+      "language": "English, Hinglish"
+    },
+    "project_history": [
+      "Editing student testimonial reels",
+      "Creating topical memes related to exams and student life"
+    ],
+    "inbound_source": "LinkedIn",
+    "important_dates": {
+      "first_interaction": "2024-04-15",
+      "last_booking_date": "2025-07-01"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/unacademy"
+    },
+    "notes_and_history": "Their social media team is always trying to jump on the latest trend. They need creatives who are chronically online and can produce relevant content within hours. High pressure but also high volume of work.",
+    "past_feedback": "Good, but demanding",
+    "lead_owner": "Rahul Verma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, links to trending content"
+  },
+  {
+    "id": "cli_040",
+    "name": "Forest Essentials",
+    "type": "Corporate",
+    "company_name": "Forest Essentials",
+    "industry": "Beauty",
+    "sub_industry": "Luxury Ayurveda",
+    "website": "https://www.forestessentialsindia.com/",
+    "headquarters_city": "New Delhi",
+    "operating_cities": ["Pan-India", "Global"],
+    "contact_person": "Mira Kulkarni's Office",
+    "designation": "Director",
+    "communication": {
+      "preferred_tools": ["Email"],
+      "tone": "Sophisticated, Poetic, Calm",
+      "preferred_work_hours": "IST"
+    },
+    "personality": ["Aesthetic-focused", "Perfectionist"],
+    "brand_style": ["Luxurious Ayurveda", "Sensorial", "Authentic"],
+    "project_behavior": {
+      "typical_project_frequency": "Per Campaign",
+      "type_of_briefs_shared": "Detailed concept notes",
+      "average_scope": "Top-tier Film Director & Photographer"
+    },
+    "budgeting": {
+      "approach": "High-value, quality-first"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Best-in-class",
+      "location_of_talent": "Global",
+      "preferred_portfolio_format": "Website",
+      "language": "English"
+    },
+    "project_history": [
+      "Brand film shot in the Himalayas",
+      "Still life product photography with a focus on ingredients"
+    ],
+    "inbound_source": "Direct Inquiry",
+    "important_dates": {
+      "first_interaction": "2024-03-01",
+      "last_booking_date": "2025-04-22"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/forestessentials"
+    },
+    "notes_and_history": "The gold standard for luxury Ayurveda. The creative bar is exceptionally high. They seek artists, not just technicians. A deep appreciation for Indian aesthetics and the philosophy of Ayurveda is a must.",
+    "past_feedback": "Excellent",
+    "lead_owner": "Priya Sharma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, detailed concept documents"
+  },
+  {
+    "id": "cli_041",
+    "name": "Zomato",
+    "type": "Corporate",
+    "company_name": "Zomato",
+    "industry": "F&B",
+    "sub_industry": "Food Delivery",
+    "website": "https://www.zomato.com/",
+    "headquarters_city": "Gurgaon",
+    "operating_cities": ["Pan-India"],
+    "contact_person": "Content Team",
+    "designation": "Social Media Manager",
+    "communication": {
+      "preferred_tools": ["Email", "Slack"],
+      "tone": "Witty, Topical, Casual",
+      "preferred_work_hours": "IST"
+    },
+    "personality": ["Creative-led", "Fast-paced"],
+    "brand_style": ["Red", "Food-puns", "Moment-marketing"],
+    "project_behavior": {
+      "typical_project_frequency": "Weekly",
+      "type_of_briefs_shared": "One-line ideas on Slack",
+      "average_scope": "Illustrator, Motion Designer"
+    },
+    "budgeting": {
+      "approach": "Fixed per creative"
+    },
+    "client_tier": "High-frequency",
+    "talent_preferences": {
+      "experience_level": "Mid-level, with a great sense of humor",
+      "location_of_talent": "Remote",
+      "preferred_portfolio_format": "Instagram / Behance",
+      "language": "English, Hinglish"
+    },
+    "project_history": [
+      "Topical graphic on a trending news event",
+      "Short animation for a new feature announcement"
+    ],
+    "inbound_source": "LinkedIn",
+    "important_dates": {
+      "first_interaction": "2024-06-03",
+      "last_booking_date": "2025-07-09"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/zomato",
+      "X": "https://twitter.com/zomato"
+    },
+    "notes_and_history": "Famous for their witty, moment-marketing genius. Needs creatives who are quick on their feet, understand internet culture, and have a genuinely good sense of humor. The ability to turn around quality work in a few hours is key.",
+    "past_feedback": "Good, fun to work with",
+    "lead_owner": "Rahul Verma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "No, just an idea"
+  },
+  {
+    "id": "cli_042",
+    "name": "Ramp",
+    "type": "Startup",
+    "company_name": "Ramp",
+    "industry": "FinTech",
+    "sub_industry": "Corporate Cards & Expense Management",
+    "website": "https://ramp.com/",
+    "headquarters_city": "New York",
+    "operating_cities": ["US"],
+    "contact_person": "Creative Director",
+    "designation": "Creative Director",
+    "communication": {
+      "preferred_tools": ["Slack", "Figma"],
+      "tone": "Direct, Design-System-Oriented",
+      "preferred_work_hours": "EST"
+    },
+    "personality": ["Design-led", "System-thinker"],
+    "brand_style": ["Efficient", "Modern", "Trustworthy"],
+    "project_behavior": {
+      "typical_project_frequency": "Ad-hoc",
+      "type_of_briefs_shared": "Figma file with comments",
+      "average_scope": "Freelance Production Designer, Motion Designer"
+    },
+    "budgeting": {
+      "approach": "Project-based, fair rates"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Pro, fluent in Figma",
+      "location_of_talent": "Remote",
+      "preferred_portfolio_format": "Website",
+      "language": "English"
+    },
+    "project_history": [
+      "Building out a library of marketing site components in Figma",
+      "Animating product UI for a launch video"
+    ],
+    "inbound_source": "Referral from a designer",
+    "important_dates": {
+      "first_interaction": "2025-01-10",
+      "last_booking_date": "2025-06-21"
+    },
+    "social_profiles": {
+      "LinkedIn": "https://linkedin.com/company/ramp",
+      "X": "https://twitter.com/ramp"
+    },
+    "notes_and_history": "Very sophisticated design team. They need freelancers who can seamlessly integrate into their existing workflows and design systems in Figma. Not looking for new creative direction, but for skilled hands to execute an existing vision.",
+    "past_feedback": "Excellent, very professional",
+    "lead_owner": "Chloe Davis",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, Figma links"
+  },
+  {
+    "id": "cli_043",
+    "name": "Good Earth",
+    "type": "Corporate",
+    "company_name": "Eicher Goodearth Pvt. Ltd.",
+    "industry": "Retail",
+    "sub_industry": "Luxury Home & Apparel",
+    "website": "https://www.goodearth.in/",
+    "headquarters_city": "New Delhi",
+    "operating_cities": ["Pan-India"],
+    "contact_person": "Anita Lal's Office",
+    "designation": "Founder",
+    "communication": {
+      "preferred_tools": ["Email"],
+      "tone": "Gracious, Visionary, Detailed",
+      "preferred_work_hours": "IST"
+    },
+    "personality": ["Aesthetic-focused", "Story-driven"],
+    "brand_style": ["Enchanted India", "Sustainable Luxury", "Craft-led"],
+    "project_behavior": {
+      "typical_project_frequency": "Per Season/Collection",
+      "type_of_briefs_shared": "Detailed visual stories and concepts",
+      "average_scope": "Full creative team (Photographer, Stylist, Director)"
+    },
+    "budgeting": {
+      "approach": "High-value, quality is paramount"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Top-tier",
+      "location_of_talent": "India, Global",
+      "preferred_portfolio_format": "Website, published work",
+      "language": "English"
+    },
+    "project_history": [
+      "Campaign film for the annual 'Van Vasi' collection",
+      "Lookbook and still life photography for their home decor range"
+    ],
+    "inbound_source": "Direct Inquiry",
+    "important_dates": {
+      "first_interaction": "2024-02-18",
+      "last_booking_date": "2025-03-03"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/goodearthindia"
+    },
+    "notes_and_history": "A client that is a tastemaker in Indian design. They seek true artists who can capture the whimsical and soulful nature of their brand. Every project is a deep dive into Indian culture, craft, and nature.",
+    "past_feedback": "Exceptional creative partnership",
+    "lead_owner": "Priya Sharma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, rich concept notes and moodboards"
+  },
+  {
+    "id": "cli_044",
+    "name": "The Athletic",
+    "type": "Media",
+    "company_name": "The New York Times Company",
+    "industry": "Media",
+    "sub_industry": "Sports Journalism",
+    "website": "https://theathletic.com/",
+    "headquarters_city": "New York",
+    "operating_cities": ["Global"],
+    "contact_person": "Photo Editor",
+    "designation": "Senior Photo Editor",
+    "communication": {
+      "preferred_tools": ["Email"],
+      "tone": "Journalistic, Direct",
+      "preferred_work_hours": "EST"
+    },
+    "personality": ["Story-driven", "Deadline-oriented"],
+    "brand_style": ["Intimate", "In-depth", "High-quality"],
+    "project_behavior": {
+      "typical_project_frequency": "Ad-hoc",
+      "type_of_briefs_shared": "Assignment memo for a story",
+      "average_scope": "Single-talent (Sports Photographer)"
+    },
+    "budgeting": {
+      "approach": "Standard day rates (NPPPA based)"
+    },
+    "client_tier": "High-frequency",
+    "talent_preferences": {
+      "experience_level": "Pro, with sports/photojournalism experience",
+      "location_of_talent": "Specific cities globally",
+      "preferred_portfolio_format": "Photojournalism website",
+      "language": "English"
+    },
+    "project_history": [
+      "On-field photographer for an NFL game",
+      "Portrait session with a premier league footballer for a feature story"
+    ],
+    "inbound_source": "Our outreach",
+    "important_dates": {
+      "first_interaction": "2024-11-29",
+      "last_booking_date": "2025-06-29"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/theathletic"
+    },
+    "notes_and_history": "Needs top-quality sports photographers across the globe. They look for more than just action shots; they want photos that tell a story and capture the emotion behind the game. Reliability and professionalism are key.",
+    "past_feedback": "Good, professional assignments",
+    "lead_owner": "Chloe Davis",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, assignment briefs"
+  },
+  {
+    "id": "cli_045",
+    "name": "Byju's",
+    "type": "Corporate",
+    "company_name": "Think and Learn Pvt. Ltd.",
+    "industry": "EdTech",
+    "sub_industry": "K-12 & Test Prep",
+    "website": "https://byjus.com/",
+    "headquarters_city": "Bangalore",
+    "operating_cities": ["Pan-India"],
+    "contact_person": "Production House Manager",
+    "designation": "Manager",
+    "communication": {
+      "preferred_tools": ["Email", "Phone Call"],
+      "tone": "Urgent, Demanding",
+      "preferred_work_hours": "24/7"
+    },
+    "personality": ["Aggressive", "High-pressure"],
+    "brand_style": ["Educational", "Bright", "Aspirational"],
+    "project_behavior": {
+      "typical_project_frequency": "Daily",
+      "type_of_briefs_shared": "Request for freelance editors/animators",
+      "average_scope": "Single-talent (Video Editor, Motion Graphics Artist)"
+    },
+    "budgeting": {
+      "approach": "Fixed, low-cost"
+    },
+    "client_tier": "High-volume",
+    "talent_preferences": {
+      "experience_level": "Beginner to Mid-level",
+      "location_of_talent": "Bangalore, Remote",
+      "preferred_portfolio_format": "Quick sample of past work",
+      "language": "English"
+    },
+    "project_history": [
+      "Editing recorded online classes",
+      "Adding motion graphics to educational videos"
+    ],
+    "inbound_source": "LinkedIn Job Posting",
+    "important_dates": {
+      "first_interaction": "2024-01-10",
+      "last_booking_date": "2025-07-11"
+    },
+    "social_profiles": {
+      "LinkedIn": "https://linkedin.com/company/byjus"
+    },
+    "notes_and_history": "A high-pressure, high-volume 'content factory' environment. They are constantly in need of editors and animators who can work fast and meet tight deadlines. It's a challenging environment, but offers a never-ending stream of work for those who can handle the pace.",
+    "past_feedback": "Bad - high pressure, low pay, payment delays",
+    "lead_owner": "Rahul Verma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, detailed templates and guidelines"
+  },
+  {
+    "id": "cli_046",
+    "name": "Aman Resorts",
+    "type": "MNC",
+    "company_name": "Aman Group S.a.r.l.",
+    "industry": "Hospitality",
+    "sub_industry": "Ultra-luxury Hotels",
+    "website": "https://www.aman.com/",
+    "headquarters_city": "Baar, Switzerland",
+    "operating_cities": ["Global"],
+    "contact_person": "Global Director of Brand",
+    "designation": "Director",
+    "communication": {
+      "preferred_tools": ["Email"],
+      "tone": "Minimalist, Refined, Discreet",
+      "preferred_work_hours": "Flexible, global hours"
+    },
+    "personality": ["Perfectionist", "Aesthetic-focused"],
+    "brand_style": ["Peace", "Sanctuary", "Architectural"],
+    "project_behavior": {
+      "typical_project_frequency": "Ad-hoc",
+      "type_of_briefs_shared": "Very high-level concept",
+      "average_scope": "World-class photographer or director"
+    },
+    "budgeting": {
+      "approach": "Cost is not the primary object"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Renowned masters in their field",
+      "location_of_talent": "Global",
+      "preferred_portfolio_format": "Internationally published work, gallery shows",
+      "language": "English"
+    },
+    "project_history": [
+      "Commissioning a fine-art photographer to capture the spirit of Aman-i-Khas",
+      "Creating a silent, meditative film about Amangiri"
+    ],
+    "inbound_source": "Direct, curated outreach",
+    "important_dates": {
+      "first_interaction": "2024-10-25",
+      "last_booking_date": "2025-04-18"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/aman"
+    },
+    "notes_and_history": "The pinnacle of luxury hospitality. They don't hire 'commercial' talent; they commission artists. The work is about capturing a feeling, not selling a room. Projects are rare, prestigious, and creatively demanding.",
+    "past_feedback": "Exceptional",
+    "lead_owner": "Priya Sharma",
+    "is_repeat_client": false,
+    "attachments_docs_provided": "No"
+  },
+  {
+    "id": "cli_047",
+    "name": "Stripe",
+    "type": "MNC",
+    "company_name": "Stripe",
+    "industry": "FinTech",
+    "sub_industry": "Payments Infrastructure",
+    "website": "https://stripe.com",
+    "headquarters_city": "San Francisco & Dublin",
+    "operating_cities": ["Global"],
+    "contact_person": "Stripe Press Editor",
+    "designation": "Editor",
+    "communication": {
+      "preferred_tools": ["Email"],
+      "tone": "Intellectual, Polished, Precise",
+      "preferred_work_hours": "PST"
+    },
+    "personality": ["Content-driven", "Detail-oriented"],
+    "brand_style": ["Optimistic", "Rigorous", "Thoughtful"],
+    "project_behavior": {
+      "typical_project_frequency": "Ad-hoc",
+      "type_of_briefs_shared": "Book manuscript",
+      "average_scope": "Book Designer, Type Designer, Illustrator"
+    },
+    "budgeting": {
+      "approach": "High-value, values craft"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Expert in print and book design",
+      "location_of_talent": "Global, Remote",
+      "preferred_portfolio_format": "Website with book design examples",
+      "language": "English"
+    },
+    "project_history": [
+      "Designing and typesetting a new book for Stripe Press",
+      "Commissioning a cover illustration from a well-known artist"
+    ],
+    "inbound_source": "Referral",
+    "important_dates": {
+      "first_interaction": "2025-01-05",
+      "last_booking_date": "2025-06-16"
+    },
+    "social_profiles": {
+      "X": "https://twitter.com/stripepress"
+    },
+    "notes_and_history": "Stripe Press has incredibly high standards for book design, typography, and illustration. They work with the best in the field to create beautifully crafted physical books. A dream client for a print-focused designer.",
+    "past_feedback": "Excellent",
+    "lead_owner": "Chloe Davis",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, manuscripts and detailed briefs"
+  },
+  {
+    "id": "cli_048",
+    "name": "Bira 91",
+    "type": "Startup",
+    "company_name": "B9 Beverages Pvt. Ltd.",
+    "industry": "F&B",
+    "sub_industry": "Craft Beer",
+    "website": "https://www.bira91.com/",
+    "headquarters_city": "New Delhi",
+    "operating_cities": ["Pan-India", "Global"],
+    "contact_person": "Ankur Jain's Office",
+    "designation": "Founder & CEO",
+    "communication": {
+      "preferred_tools": ["Email", "Slack"],
+      "tone": "Playful, Urban, Creative",
+      "preferred_work_hours": "IST"
+    },
+    "personality": ["Brand-led", "Community-centric"],
+    "brand_style": ["Colorful", "Urban", "Playful"],
+    "project_behavior": {
+      "typical_project_frequency": "Quarterly",
+      "type_of_briefs_shared": "Campaign ideas",
+      "average_scope": "Full team for events, designers for merch"
+    },
+    "budgeting": {
+      "approach": "Flexible for cool ideas"
+    },
+    "client_tier": "High-frequency",
+    "talent_preferences": {
+      "experience_level": "Mid-to-Pro, culturally aware",
+      "location_of_talent": "Delhi, Mumbai, Bangalore",
+      "preferred_portfolio_format": "Behance, Instagram",
+      "language": "English, Hinglish"
+    },
+    "project_history": [
+      "Designing new merchandise for their online store",
+      "Event photography and videography for the Bira 91 Free Flow fest",
+      "Illustrations for new beer packaging"
+    ],
+    "inbound_source": "Direct Inquiry",
+    "important_dates": {
+      "first_interaction": "2024-07-22",
+      "last_booking_date": "2025-05-28"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/bira91beer",
+      "LinkedIn": "https://linkedin.com/company/bira91"
+    },
+    "notes_and_history": "A brand that's heavily invested in culture, especially hip-hop, street art, and comedy. They look for creatives who are part of that culture and can bring an authentic voice. Lots of creative freedom on their merchandise and event-related projects.",
+    "past_feedback": "Fun, creative projects",
+    "lead_owner": "Rahul Verma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, for specific campaigns"
+  },
+  {
+    "id": "cli_049",
+    "name": "Patagonia",
+    "type": "MNC",
+    "company_name": "Patagonia, Inc.",
+    "industry": "Retail",
+    "sub_industry": "Outdoor Apparel",
+    "website": "https://www.patagonia.com/",
+    "headquarters_city": "Ventura, California",
+    "operating_cities": ["Global"],
+    "contact_person": "Film Department",
+    "designation": "Producer",
+    "communication": {
+      "preferred_tools": ["Email"],
+      "tone": "Mission-driven, Authentic, Respectful",
+      "preferred_work_hours": "PST"
+    },
+    "personality": ["Activist", "Story-driven"],
+    "brand_style": ["Rugged", "Activist", "Human-powered"],
+    "project_behavior": {
+      "typical_project_frequency": "Ad-hoc",
+      "type_of_briefs_shared": "Story pitch for a documentary",
+      "average_scope": "Small, nimble documentary film crew"
+    },
+    "budgeting": {
+      "approach": "Grant-based for films, fair"
+    },
+    "client_tier": "High-value",
+    "talent_preferences": {
+      "experience_level": "Pro, with documentary/outdoor experience",
+      "location_of_talent": "Global, near environmental hotspots",
+      "preferred_portfolio_format": "Vimeo (documentary work)",
+      "language": "English"
+    },
+    "project_history": [
+      "Funding and distributing a documentary about a grassroots environmental movement in India",
+      "Hiring a local DoP for a shoot in the Andes"
+    ],
+    "inbound_source": "Film Grant Application",
+    "important_dates": {
+      "first_interaction": "2024-11-11",
+      "last_booking_date": "2025-06-24"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/patagoniafilms"
+    },
+    "notes_and_history": "Patagonia Provisions and Films department funds and supports documentaries about environmental activism. They look for authentic storytellers who are deeply embedded in the issues they're covering. It's less a client relationship and more a partnership or grant.",
+    "past_feedback": "Excellent, meaningful work",
+    "lead_owner": "Chloe Davis",
+    "is_repeat_client": false,
+    "attachments_docs_provided": "Yes, grant proposals and story outlines"
+  },
+  {
+    "id": "cli_050",
+    "name": "Cure.fit / Cult.fit",
+    "type": "Startup",
+    "company_name": "CureFit Healthcare Pvt Ltd",
+    "industry": "Health & Wellness",
+    "sub_industry": "Fitness",
+    "website": "https://www.cult.fit/",
+    "headquarters_city": "Bangalore",
+    "operating_cities": ["Pan-India", "Dubai"],
+    "contact_person": "Naresh Krishnaswamy",
+    "designation": "Growth & Marketing Head",
+    "communication": {
+      "preferred_tools": ["Slack", "Google Meet"],
+      "tone": "High-energy, Direct, Data-informed",
+      "preferred_work_hours": "IST"
+    },
+    "personality": ["Aggressive-growth", "Experimental"],
+    "brand_style": ["Energetic", "Black & White", "Community"],
+    "project_behavior": {
+      "typical_project_frequency": "Weekly",
+      "type_of_briefs_shared": "Growth experiment ideas needing creatives",
+      "average_scope": "Single-talent (Photographer, Video Editor)"
+    },
+    "budgeting": {
+      "approach": "Performance-based, scrappy"
+    },
+    "client_tier": "High-frequency",
+    "talent_preferences": {
+      "experience_level": "Mid-level, fast and versatile",
+      "location_of_talent": "Bangalore, Mumbai, Delhi",
+      "preferred_portfolio_format": "Drive link of past work",
+      "language": "English"
+    },
+    "project_history": [
+      "Photography of new Cult center interiors",
+      "Editing user-generated content for social media ads",
+      "Shooting trainer-led workout videos"
+    ],
+    "inbound_source": "LinkedIn",
+    "important_dates": {
+      "first_interaction": "2024-03-20",
+      "last_booking_date": "2025-07-06"
+    },
+    "social_profiles": {
+      "Instagram": "https://instagram.com/cultfitin",
+      "LinkedIn": "https://linkedin.com/company/curefit"
+    },
+    "notes_and_history": "A very fast-moving growth team. They are always running experiments and need creatives who can keep up. Needs photographers who can capture high-energy, sweaty, authentic fitness moments. No glossy, fake-looking stuff. Speed and reliability are valued over artistic perfection.",
+    "past_feedback": "Good, but very fast-paced",
+    "lead_owner": "Rahul Verma",
+    "is_repeat_client": true,
+    "attachments_docs_provided": "Yes, brief docs for experiments"
+  }
+]

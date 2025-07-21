@@ -1,0 +1,2022 @@
+[
+  {
+    "gig_id": "gig_001",
+    "talent_id": "tal_144",
+    "status": "shortlisted",
+    "score": 7.0,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-02",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_001",
+    "talent_id": "tal_040",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-30",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_001",
+    "talent_id": "tal_067",
+    "status": "selected",
+    "score": 8.9,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": "Would love to work with them again.",
+    "shared_on": "2025-06-11",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_002",
+    "talent_id": "tal_011",
+    "status": "selected",
+    "score": 9.1,
+    "feedback_from_client": "Budget mismatch.",
+    "feedback_from_talent": "Not enough brief details provided.",
+    "shared_on": "2025-06-30",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_002",
+    "talent_id": "tal_018",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-29",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_002",
+    "talent_id": "tal_044",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-05",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_002",
+    "talent_id": "tal_161",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-05",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_003",
+    "talent_id": "tal_151",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-07",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_003",
+    "talent_id": "tal_076",
+    "status": "selected",
+    "score": 9.4,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": "Not enough brief details provided.",
+    "shared_on": "2025-06-03",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_003",
+    "talent_id": "tal_098",
+    "status": "shortlisted",
+    "score": 7.0,
+    "feedback_from_client": "Responsive and professional.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-08",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_003",
+    "talent_id": "tal_186",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-24",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_003",
+    "talent_id": "tal_051",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "No response after shortlisting.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-26",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_004",
+    "talent_id": "tal_114",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-18",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_004",
+    "talent_id": "tal_130",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Excellent communication and follow-up.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-07-04",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_004",
+    "talent_id": "tal_163",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-25",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_004",
+    "talent_id": "tal_122",
+    "status": "selected",
+    "score": 7.0,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": "Would love to work with them again.",
+    "shared_on": "2025-05-22",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_005",
+    "talent_id": "tal_043",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Responsive and professional.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-24",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_005",
+    "talent_id": "tal_141",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-14",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_005",
+    "talent_id": "tal_161",
+    "status": "selected",
+    "score": 7.3,
+    "feedback_from_client": "Responsive and professional.",
+    "feedback_from_talent": "Client was clear and collaborative.",
+    "shared_on": "2025-05-14",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_006",
+    "talent_id": "tal_164",
+    "status": "selected",
+    "score": 8.2,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": "Payment discussion unclear.",
+    "shared_on": "2025-06-05",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_006",
+    "talent_id": "tal_042",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-06",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_007",
+    "talent_id": "tal_019",
+    "status": "selected",
+    "score": 9.1,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": "Delayed response from client.",
+    "shared_on": "2025-06-22",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_007",
+    "talent_id": "tal_033",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Excellent communication and follow-up.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-06",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_008",
+    "talent_id": "tal_150",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-14",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_008",
+    "talent_id": "tal_084",
+    "status": "selected",
+    "score": 7.1,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": "Would love to work with them again.",
+    "shared_on": "2025-06-10",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_008",
+    "talent_id": "tal_036",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-10",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_008",
+    "talent_id": "tal_199",
+    "status": "shortlisted",
+    "score": 9.3,
+    "feedback_from_client": "Excellent communication and follow-up.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-17",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_008",
+    "talent_id": "tal_047",
+    "status": "shortlisted",
+    "score": 6.1,
+    "feedback_from_client": "No response after shortlisting.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-29",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_009",
+    "talent_id": "tal_029",
+    "status": "selected",
+    "score": 8.7,
+    "feedback_from_client": "Worked well, on-time delivery.",
+    "feedback_from_talent": "Payment discussion unclear.",
+    "shared_on": "2025-06-22",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_009",
+    "talent_id": "tal_053",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-02",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_009",
+    "talent_id": "tal_163",
+    "status": "shortlisted",
+    "score": 7.7,
+    "feedback_from_client": "Strong portfolio, but not available on date.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-26",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_009",
+    "talent_id": "tal_084",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Budget mismatch.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-07-01",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_010",
+    "talent_id": "tal_175",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Responsive and professional.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-30",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_010",
+    "talent_id": "tal_096",
+    "status": "shortlisted",
+    "score": 8.7,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-23",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_010",
+    "talent_id": "tal_150",
+    "status": "shortlisted",
+    "score": 9.1,
+    "feedback_from_client": "Excellent communication and follow-up.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-07-04",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_010",
+    "talent_id": "tal_048",
+    "status": "selected",
+    "score": 8.4,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": "Payment discussion unclear.",
+    "shared_on": "2025-05-28",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_011",
+    "talent_id": "tal_092",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-07-02",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_011",
+    "talent_id": "tal_124",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Budget mismatch.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-14",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_011",
+    "talent_id": "tal_123",
+    "status": "shortlisted",
+    "score": 7.6,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-16",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_011",
+    "talent_id": "tal_176",
+    "status": "selected",
+    "score": 8.3,
+    "feedback_from_client": "No response after shortlisting.",
+    "feedback_from_talent": "Delayed response from client.",
+    "shared_on": "2025-05-27",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_012",
+    "talent_id": "tal_098",
+    "status": "shortlisted",
+    "score": 8.4,
+    "feedback_from_client": "No response after shortlisting.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-22",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_012",
+    "talent_id": "tal_012",
+    "status": "shortlisted",
+    "score": 9.2,
+    "feedback_from_client": "Strong portfolio, but not available on date.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-07-03",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_012",
+    "talent_id": "tal_155",
+    "status": "shortlisted",
+    "score": 6.0,
+    "feedback_from_client": "Excellent communication and follow-up.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-17",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_012",
+    "talent_id": "tal_025",
+    "status": "selected",
+    "score": 8.7,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": "Not enough brief details provided.",
+    "shared_on": "2025-06-25",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_012",
+    "talent_id": "tal_103",
+    "status": "shortlisted",
+    "score": 9.3,
+    "feedback_from_client": "Budget mismatch.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-13",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_013",
+    "talent_id": "tal_068",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-17",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_013",
+    "talent_id": "tal_099",
+    "status": "selected",
+    "score": 8.1,
+    "feedback_from_client": "Worked well, on-time delivery.",
+    "feedback_from_talent": "Last-minute change in scope.",
+    "shared_on": "2025-06-21",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_014",
+    "talent_id": "tal_132",
+    "status": "selected",
+    "score": 8.3,
+    "feedback_from_client": "Strong portfolio, but not available on date.",
+    "feedback_from_talent": "Delayed response from client.",
+    "shared_on": "2025-07-04",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_014",
+    "talent_id": "tal_016",
+    "status": "shortlisted",
+    "score": 6.3,
+    "feedback_from_client": "Strong portfolio, but not available on date.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-19",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_015",
+    "talent_id": "tal_015",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-18",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_015",
+    "talent_id": "tal_157",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-24",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_015",
+    "talent_id": "tal_075",
+    "status": "selected",
+    "score": 9.7,
+    "feedback_from_client": "Strong portfolio, but not available on date.",
+    "feedback_from_talent": "Not enough brief details provided.",
+    "shared_on": "2025-06-14",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_015",
+    "talent_id": "tal_128",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Excellent communication and follow-up.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-07-04",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_015",
+    "talent_id": "tal_011",
+    "status": "shortlisted",
+    "score": 9.1,
+    "feedback_from_client": "Excellent communication and follow-up.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-05",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_016",
+    "talent_id": "tal_014",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-05",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_016",
+    "talent_id": "tal_042",
+    "status": "shortlisted",
+    "score": 7.3,
+    "feedback_from_client": "Strong portfolio, but not available on date.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-18",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_016",
+    "talent_id": "tal_008",
+    "status": "shortlisted",
+    "score": 6.6,
+    "feedback_from_client": "Budget mismatch.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-12",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_016",
+    "talent_id": "tal_067",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-14",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_016",
+    "talent_id": "tal_022",
+    "status": "selected",
+    "score": 6.6,
+    "feedback_from_client": "Budget mismatch.",
+    "feedback_from_talent": "Payment discussion unclear.",
+    "shared_on": "2025-06-30",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_017",
+    "talent_id": "tal_033",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-24",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_017",
+    "talent_id": "tal_069",
+    "status": "selected",
+    "score": 8.7,
+    "feedback_from_client": "Responsive and professional.",
+    "feedback_from_talent": "Last-minute change in scope.",
+    "shared_on": "2025-05-24",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_018",
+    "talent_id": "tal_200",
+    "status": "selected",
+    "score": 8.3,
+    "feedback_from_client": "No response after shortlisting.",
+    "feedback_from_talent": "Not enough brief details provided.",
+    "shared_on": "2025-05-31",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_018",
+    "talent_id": "tal_058",
+    "status": "shortlisted",
+    "score": 9.2,
+    "feedback_from_client": "Worked well, on-time delivery.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-24",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_019",
+    "talent_id": "tal_093",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-25",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_019",
+    "talent_id": "tal_181",
+    "status": "selected",
+    "score": 6.1,
+    "feedback_from_client": "Excellent communication and follow-up.",
+    "feedback_from_talent": "Client was clear and collaborative.",
+    "shared_on": "2025-05-30",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_020",
+    "talent_id": "tal_095",
+    "status": "selected",
+    "score": 8.7,
+    "feedback_from_client": "Strong portfolio, but not available on date.",
+    "feedback_from_talent": "Not enough brief details provided.",
+    "shared_on": "2025-06-14",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_020",
+    "talent_id": "tal_072",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Responsive and professional.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-22",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_020",
+    "talent_id": "tal_125",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-22",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_021",
+    "talent_id": "tal_108",
+    "status": "shortlisted",
+    "score": 6.3,
+    "feedback_from_client": "No response after shortlisting.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-05",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_021",
+    "talent_id": "tal_080",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Strong portfolio, but not available on date.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-24",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_021",
+    "talent_id": "tal_002",
+    "status": "selected",
+    "score": 6.2,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": "Client was clear and collaborative.",
+    "shared_on": "2025-06-20",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_022",
+    "talent_id": "tal_137",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "No response after shortlisting.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-07-01",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_022",
+    "talent_id": "tal_020",
+    "status": "selected",
+    "score": 9.3,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": "Payment discussion unclear.",
+    "shared_on": "2025-05-15",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_023",
+    "talent_id": "tal_169",
+    "status": "shortlisted",
+    "score": 6.2,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-15",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_023",
+    "talent_id": "tal_136",
+    "status": "selected",
+    "score": 8.0,
+    "feedback_from_client": "Worked well, on-time delivery.",
+    "feedback_from_talent": "Would love to work with them again.",
+    "shared_on": "2025-06-25",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_024",
+    "talent_id": "tal_195",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-16",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_024",
+    "talent_id": "tal_087",
+    "status": "shortlisted",
+    "score": 9.4,
+    "feedback_from_client": "Budget mismatch.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-26",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_024",
+    "talent_id": "tal_010",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-12",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_024",
+    "talent_id": "tal_003",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Budget mismatch.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-30",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_024",
+    "talent_id": "tal_083",
+    "status": "selected",
+    "score": 9.4,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": "Last-minute change in scope.",
+    "shared_on": "2025-06-16",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_025",
+    "talent_id": "tal_143",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-30",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_025",
+    "talent_id": "tal_044",
+    "status": "selected",
+    "score": 8.3,
+    "feedback_from_client": "Excellent communication and follow-up.",
+    "feedback_from_talent": "Client was clear and collaborative.",
+    "shared_on": "2025-06-14",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_025",
+    "talent_id": "tal_030",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Responsive and professional.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-24",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_025",
+    "talent_id": "tal_125",
+    "status": "shortlisted",
+    "score": 7.0,
+    "feedback_from_client": "Excellent communication and follow-up.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-20",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_026",
+    "talent_id": "tal_121",
+    "status": "selected",
+    "score": 7.7,
+    "feedback_from_client": "Excellent communication and follow-up.",
+    "feedback_from_talent": "Delayed response from client.",
+    "shared_on": "2025-06-06",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_026",
+    "talent_id": "tal_113",
+    "status": "shortlisted",
+    "score": 7.1,
+    "feedback_from_client": "Responsive and professional.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-21",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_026",
+    "talent_id": "tal_159",
+    "status": "shortlisted",
+    "score": 7.2,
+    "feedback_from_client": "No response after shortlisting.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-06",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_026",
+    "talent_id": "tal_084",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "No response after shortlisting.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-07-05",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_026",
+    "talent_id": "tal_091",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Responsive and professional.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-07-04",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_027",
+    "talent_id": "tal_200",
+    "status": "shortlisted",
+    "score": 9.3,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-28",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_027",
+    "talent_id": "tal_051",
+    "status": "selected",
+    "score": 8.7,
+    "feedback_from_client": "Excellent communication and follow-up.",
+    "feedback_from_talent": "Would love to work with them again.",
+    "shared_on": "2025-06-15",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_027",
+    "talent_id": "tal_063",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-10",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_028",
+    "talent_id": "tal_163",
+    "status": "selected",
+    "score": 9.2,
+    "feedback_from_client": "Worked well, on-time delivery.",
+    "feedback_from_talent": "Last-minute change in scope.",
+    "shared_on": "2025-05-25",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_028",
+    "talent_id": "tal_001",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-01",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_029",
+    "talent_id": "tal_146",
+    "status": "shortlisted",
+    "score": 8.2,
+    "feedback_from_client": "No response after shortlisting.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-31",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_029",
+    "talent_id": "tal_013",
+    "status": "shortlisted",
+    "score": 7.1,
+    "feedback_from_client": "Worked well, on-time delivery.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-28",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_029",
+    "talent_id": "tal_179",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-04",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_029",
+    "talent_id": "tal_134",
+    "status": "selected",
+    "score": 7.8,
+    "feedback_from_client": "Responsive and professional.",
+    "feedback_from_talent": "Not enough brief details provided.",
+    "shared_on": "2025-06-09",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_029",
+    "talent_id": "tal_195",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-02",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_030",
+    "talent_id": "tal_194",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "No response after shortlisting.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-02",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_030",
+    "talent_id": "tal_189",
+    "status": "selected",
+    "score": 8.2,
+    "feedback_from_client": "Excellent communication and follow-up.",
+    "feedback_from_talent": "Payment discussion unclear.",
+    "shared_on": "2025-05-14",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_030",
+    "talent_id": "tal_175",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-30",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_030",
+    "talent_id": "tal_191",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Responsive and professional.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-21",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_031",
+    "talent_id": "tal_151",
+    "status": "shortlisted",
+    "score": 6.7,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-20",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_031",
+    "talent_id": "tal_196",
+    "status": "shortlisted",
+    "score": 8.0,
+    "feedback_from_client": "Worked well, on-time delivery.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-26",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_031",
+    "talent_id": "tal_190",
+    "status": "selected",
+    "score": 6.5,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": "Would love to work with them again.",
+    "shared_on": "2025-05-23",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_032",
+    "talent_id": "tal_164",
+    "status": "selected",
+    "score": 8.0,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": "Not enough brief details provided.",
+    "shared_on": "2025-06-26",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_032",
+    "talent_id": "tal_055",
+    "status": "shortlisted",
+    "score": 8.0,
+    "feedback_from_client": "Worked well, on-time delivery.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-30",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_032",
+    "talent_id": "tal_170",
+    "status": "shortlisted",
+    "score": 9.5,
+    "feedback_from_client": "Excellent communication and follow-up.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-22",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_032",
+    "talent_id": "tal_036",
+    "status": "shortlisted",
+    "score": 9.0,
+    "feedback_from_client": "Budget mismatch.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-22",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_033",
+    "talent_id": "tal_127",
+    "status": "selected",
+    "score": 7.8,
+    "feedback_from_client": "No response after shortlisting.",
+    "feedback_from_talent": "Delayed response from client.",
+    "shared_on": "2025-05-18",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_033",
+    "talent_id": "tal_097",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-20",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_034",
+    "talent_id": "tal_165",
+    "status": "selected",
+    "score": 8.8,
+    "feedback_from_client": "Budget mismatch.",
+    "feedback_from_talent": "Would love to work with them again.",
+    "shared_on": "2025-06-30",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_034",
+    "talent_id": "tal_183",
+    "status": "shortlisted",
+    "score": 7.7,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-25",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_034",
+    "talent_id": "tal_027",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Strong portfolio, but not available on date.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-28",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_034",
+    "talent_id": "tal_157",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Excellent communication and follow-up.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-07-04",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_035",
+    "talent_id": "tal_200",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Excellent communication and follow-up.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-30",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_035",
+    "talent_id": "tal_072",
+    "status": "selected",
+    "score": 9.5,
+    "feedback_from_client": "Worked well, on-time delivery.",
+    "feedback_from_talent": "Not enough brief details provided.",
+    "shared_on": "2025-06-12",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_036",
+    "talent_id": "tal_112",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Strong portfolio, but not available on date.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-30",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_036",
+    "talent_id": "tal_199",
+    "status": "selected",
+    "score": 9.7,
+    "feedback_from_client": "Worked well, on-time delivery.",
+    "feedback_from_talent": "Not enough brief details provided.",
+    "shared_on": "2025-06-02",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_036",
+    "talent_id": "tal_126",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Worked well, on-time delivery.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-09",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_037",
+    "talent_id": "tal_124",
+    "status": "shortlisted",
+    "score": 8.3,
+    "feedback_from_client": "Strong portfolio, but not available on date.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-31",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_037",
+    "talent_id": "tal_096",
+    "status": "selected",
+    "score": 8.7,
+    "feedback_from_client": "Worked well, on-time delivery.",
+    "feedback_from_talent": "Would love to work with them again.",
+    "shared_on": "2025-06-12",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_037",
+    "talent_id": "tal_042",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Strong portfolio, but not available on date.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-23",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_037",
+    "talent_id": "tal_067",
+    "status": "shortlisted",
+    "score": 8.2,
+    "feedback_from_client": "No response after shortlisting.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-03",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_037",
+    "talent_id": "tal_142",
+    "status": "shortlisted",
+    "score": 7.2,
+    "feedback_from_client": "Worked well, on-time delivery.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-30",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_038",
+    "talent_id": "tal_080",
+    "status": "shortlisted",
+    "score": 6.7,
+    "feedback_from_client": "Budget mismatch.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-17",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_038",
+    "talent_id": "tal_187",
+    "status": "selected",
+    "score": 9.5,
+    "feedback_from_client": "Responsive and professional.",
+    "feedback_from_talent": "Would love to work with them again.",
+    "shared_on": "2025-05-26",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_039",
+    "talent_id": "tal_012",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Budget mismatch.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-30",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_039",
+    "talent_id": "tal_150",
+    "status": "shortlisted",
+    "score": 6.7,
+    "feedback_from_client": "Excellent communication and follow-up.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-16",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_039",
+    "talent_id": "tal_026",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Budget mismatch.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-30",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_039",
+    "talent_id": "tal_019",
+    "status": "selected",
+    "score": 8.1,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": "Payment discussion unclear.",
+    "shared_on": "2025-06-27",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_040",
+    "talent_id": "tal_053",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-18",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_040",
+    "talent_id": "tal_109",
+    "status": "shortlisted",
+    "score": 7.0,
+    "feedback_from_client": "Strong portfolio, but not available on date.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-22",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_040",
+    "talent_id": "tal_132",
+    "status": "selected",
+    "score": 7.0,
+    "feedback_from_client": "Worked well, on-time delivery.",
+    "feedback_from_talent": "Client was clear and collaborative.",
+    "shared_on": "2025-06-26",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_041",
+    "talent_id": "tal_010",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Worked well, on-time delivery.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-23",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_041",
+    "talent_id": "tal_176",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Strong portfolio, but not available on date.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-22",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_041",
+    "talent_id": "tal_041",
+    "status": "selected",
+    "score": 7.6,
+    "feedback_from_client": "Excellent communication and follow-up.",
+    "feedback_from_talent": "Last-minute change in scope.",
+    "shared_on": "2025-07-01",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_042",
+    "talent_id": "tal_179",
+    "status": "shortlisted",
+    "score": 8.1,
+    "feedback_from_client": "Strong portfolio, but not available on date.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-15",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_042",
+    "talent_id": "tal_198",
+    "status": "shortlisted",
+    "score": 6.4,
+    "feedback_from_client": "No response after shortlisting.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-30",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_042",
+    "talent_id": "tal_003",
+    "status": "selected",
+    "score": 7.5,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": "Would love to work with them again.",
+    "shared_on": "2025-06-17",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_042",
+    "talent_id": "tal_041",
+    "status": "shortlisted",
+    "score": 8.4,
+    "feedback_from_client": "Worked well, on-time delivery.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-24",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_043",
+    "talent_id": "tal_122",
+    "status": "selected",
+    "score": 9.7,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": "Payment discussion unclear.",
+    "shared_on": "2025-07-05",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_043",
+    "talent_id": "tal_156",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Excellent communication and follow-up.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-16",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_043",
+    "talent_id": "tal_157",
+    "status": "shortlisted",
+    "score": 6.3,
+    "feedback_from_client": "Strong portfolio, but not available on date.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-11",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_044",
+    "talent_id": "tal_153",
+    "status": "selected",
+    "score": 6.2,
+    "feedback_from_client": "Strong portfolio, but not available on date.",
+    "feedback_from_talent": "Payment discussion unclear.",
+    "shared_on": "2025-06-07",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_044",
+    "talent_id": "tal_155",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-30",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_044",
+    "talent_id": "tal_049",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-16",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_044",
+    "talent_id": "tal_179",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-03",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_045",
+    "talent_id": "tal_192",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-07-02",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_045",
+    "talent_id": "tal_200",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-17",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_045",
+    "talent_id": "tal_151",
+    "status": "selected",
+    "score": 8.8,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": "Not enough brief details provided.",
+    "shared_on": "2025-05-26",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_046",
+    "talent_id": "tal_168",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Excellent communication and follow-up.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-15",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_046",
+    "talent_id": "tal_011",
+    "status": "selected",
+    "score": 6.4,
+    "feedback_from_client": "Excellent communication and follow-up.",
+    "feedback_from_talent": "Would love to work with them again.",
+    "shared_on": "2025-06-09",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_046",
+    "talent_id": "tal_005",
+    "status": "shortlisted",
+    "score": 7.1,
+    "feedback_from_client": "Worked well, on-time delivery.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-19",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_046",
+    "talent_id": "tal_030",
+    "status": "shortlisted",
+    "score": 7.5,
+    "feedback_from_client": "Strong portfolio, but not available on date.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-01",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_047",
+    "talent_id": "tal_179",
+    "status": "selected",
+    "score": 6.2,
+    "feedback_from_client": "No response after shortlisting.",
+    "feedback_from_talent": "Client was clear and collaborative.",
+    "shared_on": "2025-06-02",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_047",
+    "talent_id": "tal_142",
+    "status": "shortlisted",
+    "score": 8.2,
+    "feedback_from_client": "Responsive and professional.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-17",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_047",
+    "talent_id": "tal_057",
+    "status": "shortlisted",
+    "score": 7.6,
+    "feedback_from_client": "Responsive and professional.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-25",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_047",
+    "talent_id": "tal_187",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-17",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_048",
+    "talent_id": "tal_010",
+    "status": "selected",
+    "score": 6.7,
+    "feedback_from_client": "Budget mismatch.",
+    "feedback_from_talent": "Payment discussion unclear.",
+    "shared_on": "2025-06-23",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_048",
+    "talent_id": "tal_132",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Worked well, on-time delivery.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-21",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_049",
+    "talent_id": "tal_026",
+    "status": "shortlisted",
+    "score": 6.4,
+    "feedback_from_client": "No response after shortlisting.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-05",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_049",
+    "talent_id": "tal_075",
+    "status": "selected",
+    "score": 6.6,
+    "feedback_from_client": "Responsive and professional.",
+    "feedback_from_talent": "Payment discussion unclear.",
+    "shared_on": "2025-06-30",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_050",
+    "talent_id": "tal_116",
+    "status": "selected",
+    "score": 7.6,
+    "feedback_from_client": "Strong portfolio, but not available on date.",
+    "feedback_from_talent": "Would love to work with them again.",
+    "shared_on": "2025-05-21",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_050",
+    "talent_id": "tal_145",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-20",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_051",
+    "talent_id": "tal_070",
+    "status": "selected",
+    "score": 9.6,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": "Delayed response from client.",
+    "shared_on": "2025-05-31",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_051",
+    "talent_id": "tal_018",
+    "status": "shortlisted",
+    "score": 7.3,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-23",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_051",
+    "talent_id": "tal_012",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-15",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_051",
+    "talent_id": "tal_037",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-18",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_052",
+    "talent_id": "tal_137",
+    "status": "selected",
+    "score": 8.4,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": "Would love to work with them again.",
+    "shared_on": "2025-06-21",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_052",
+    "talent_id": "tal_102",
+    "status": "shortlisted",
+    "score": 7.3,
+    "feedback_from_client": "No response after shortlisting.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-02",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_053",
+    "talent_id": "tal_120",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-14",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_053",
+    "talent_id": "tal_031",
+    "status": "selected",
+    "score": 9.6,
+    "feedback_from_client": "Budget mismatch.",
+    "feedback_from_talent": "Not enough brief details provided.",
+    "shared_on": "2025-05-19",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_053",
+    "talent_id": "tal_007",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Budget mismatch.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-17",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_053",
+    "talent_id": "tal_092",
+    "status": "shortlisted",
+    "score": 6.0,
+    "feedback_from_client": "Budget mismatch.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-16",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_054",
+    "talent_id": "tal_025",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-30",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_054",
+    "talent_id": "tal_178",
+    "status": "shortlisted",
+    "score": 6.9,
+    "feedback_from_client": "Responsive and professional.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-27",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_054",
+    "talent_id": "tal_164",
+    "status": "selected",
+    "score": 6.6,
+    "feedback_from_client": "No response after shortlisting.",
+    "feedback_from_talent": "Client was clear and collaborative.",
+    "shared_on": "2025-06-08",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_055",
+    "talent_id": "tal_087",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "No response after shortlisting.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-28",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_055",
+    "talent_id": "tal_016",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "No response after shortlisting.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-26",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_055",
+    "talent_id": "tal_125",
+    "status": "shortlisted",
+    "score": 6.9,
+    "feedback_from_client": "Strong portfolio, but not available on date.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-16",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_055",
+    "talent_id": "tal_196",
+    "status": "shortlisted",
+    "score": 9.8,
+    "feedback_from_client": "Worked well, on-time delivery.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-23",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_055",
+    "talent_id": "tal_007",
+    "status": "selected",
+    "score": 6.4,
+    "feedback_from_client": "Budget mismatch.",
+    "feedback_from_talent": "Client was clear and collaborative.",
+    "shared_on": "2025-06-25",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_056",
+    "talent_id": "tal_107",
+    "status": "shortlisted",
+    "score": 6.2,
+    "feedback_from_client": "Worked well, on-time delivery.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-20",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_056",
+    "talent_id": "tal_169",
+    "status": "shortlisted",
+    "score": 6.6,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-02",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_056",
+    "talent_id": "tal_079",
+    "status": "shortlisted",
+    "score": 8.1,
+    "feedback_from_client": "Responsive and professional.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-19",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_056",
+    "talent_id": "tal_067",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-30",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_056",
+    "talent_id": "tal_183",
+    "status": "selected",
+    "score": 7.6,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": "Not enough brief details provided.",
+    "shared_on": "2025-05-15",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_057",
+    "talent_id": "tal_066",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-07-04",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_057",
+    "talent_id": "tal_052",
+    "status": "selected",
+    "score": 8.8,
+    "feedback_from_client": "No response after shortlisting.",
+    "feedback_from_talent": "Delayed response from client.",
+    "shared_on": "2025-05-24",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_058",
+    "talent_id": "tal_132",
+    "status": "shortlisted",
+    "score": 9.3,
+    "feedback_from_client": "Responsive and professional.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-04",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_058",
+    "talent_id": "tal_079",
+    "status": "shortlisted",
+    "score": 8.7,
+    "feedback_from_client": "Budget mismatch.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-15",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_058",
+    "talent_id": "tal_046",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-15",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_058",
+    "talent_id": "tal_125",
+    "status": "selected",
+    "score": 7.5,
+    "feedback_from_client": "Budget mismatch.",
+    "feedback_from_talent": "Last-minute change in scope.",
+    "shared_on": "2025-07-05",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_059",
+    "talent_id": "tal_018",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-28",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_059",
+    "talent_id": "tal_184",
+    "status": "selected",
+    "score": 8.5,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": "Payment discussion unclear.",
+    "shared_on": "2025-06-25",
+    "final_decision": "selected"
+  },
+  {
+    "gig_id": "gig_059",
+    "talent_id": "tal_010",
+    "status": "backup",
+    "score": null,
+    "feedback_from_client": "Didn\u2019t align with our aesthetic.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-23",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_059",
+    "talent_id": "tal_108",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-05-30",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_059",
+    "talent_id": "tal_191",
+    "status": "rejected",
+    "score": null,
+    "feedback_from_client": null,
+    "feedback_from_talent": null,
+    "shared_on": "2025-07-01",
+    "final_decision": "rejected"
+  },
+  {
+    "gig_id": "gig_060",
+    "talent_id": "tal_188",
+    "status": "shortlisted",
+    "score": 6.0,
+    "feedback_from_client": "Worked well, on-time delivery.",
+    "feedback_from_talent": null,
+    "shared_on": "2025-06-21",
+    "final_decision": "undecided"
+  },
+  {
+    "gig_id": "gig_060",
+    "talent_id": "tal_125",
+    "status": "selected",
+    "score": 6.8,
+    "feedback_from_client": "Budget mismatch.",
+    "feedback_from_talent": "Payment discussion unclear.",
+    "shared_on": "2025-06-19",
+    "final_decision": "selected"
+  }
+]

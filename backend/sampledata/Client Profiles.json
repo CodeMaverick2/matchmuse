@@ -1,0 +1,652 @@
+[
+  {
+    "id": "cli_001",
+    "name": "Parker LLC",
+    "type": "Creator",
+    "industry": "Weddings",
+    "city": "Kolkata",
+    "style_preferences": [
+      "Youthful",
+      "Vibrant"
+    ],
+    "communication_style": "casual",
+    "client_tier": "first-timer"
+  },
+  {
+    "id": "cli_002",
+    "name": "Ortiz-Scott",
+    "type": "Individual",
+    "industry": "Real Estate",
+    "city": "Goa",
+    "style_preferences": [
+      "Vibrant",
+      "Boho"
+    ],
+    "communication_style": "detailed",
+    "client_tier": "high-volume"
+  },
+  {
+    "id": "cli_003",
+    "name": "Williams, Sanchez and Davis",
+    "type": "Company",
+    "industry": "Travel",
+    "city": "Mumbai",
+    "style_preferences": [
+      "Maximalist",
+      "Luxury"
+    ],
+    "communication_style": "casual",
+    "client_tier": "first-timer"
+  },
+  {
+    "id": "cli_004",
+    "name": "Rice-Harris",
+    "type": "Company",
+    "industry": "Music",
+    "city": "Hyderabad",
+    "style_preferences": [
+      "Vibrant",
+      "Boho"
+    ],
+    "communication_style": "casual",
+    "client_tier": "high-value"
+  },
+  {
+    "id": "cli_005",
+    "name": "Watson and Sons",
+    "type": "Individual",
+    "industry": "Travel",
+    "city": "Pune",
+    "style_preferences": [
+      "Clean",
+      "Youthful"
+    ],
+    "communication_style": "formal",
+    "client_tier": "high-volume"
+  },
+  {
+    "id": "cli_006",
+    "name": "Coleman-Sullivan",
+    "type": "Startup",
+    "industry": "Fitness",
+    "city": "Bangalore",
+    "style_preferences": [
+      "Youthful",
+      "Maximalist"
+    ],
+    "communication_style": "brief",
+    "client_tier": "first-timer"
+  },
+  {
+    "id": "cli_007",
+    "name": "Watkins-Thompson",
+    "type": "Family",
+    "industry": "Fitness",
+    "city": "Kolkata",
+    "style_preferences": [
+      "Maximalist",
+      "Youthful"
+    ],
+    "communication_style": "casual",
+    "client_tier": "first-timer"
+  },
+  {
+    "id": "cli_008",
+    "name": "Barrett, Scott and Knight",
+    "type": "Company",
+    "industry": "Fitness",
+    "city": "Kolkata",
+    "style_preferences": [
+      "Boho",
+      "Luxury"
+    ],
+    "communication_style": "casual",
+    "client_tier": "high-volume"
+  },
+  {
+    "id": "cli_009",
+    "name": "Chavez-Cross",
+    "type": "Agency",
+    "industry": "Travel",
+    "city": "Mumbai",
+    "style_preferences": [
+      "Youthful",
+      "Boho"
+    ],
+    "communication_style": "casual",
+    "client_tier": "high-frequency"
+  },
+  {
+    "id": "cli_010",
+    "name": "Wagner, Smith and Smith",
+    "type": "Family",
+    "industry": "Travel",
+    "city": "Goa",
+    "style_preferences": [
+      "Minimal",
+      "Luxury"
+    ],
+    "communication_style": "detailed",
+    "client_tier": "high-frequency"
+  },
+  {
+    "id": "cli_011",
+    "name": "Flores-Garcia",
+    "type": "Agency",
+    "industry": "Travel",
+    "city": "Goa",
+    "style_preferences": [
+      "Boho",
+      "Minimal"
+    ],
+    "communication_style": "detailed",
+    "client_tier": "high-volume"
+  },
+  {
+    "id": "cli_012",
+    "name": "Fuentes, Patel and Dean",
+    "type": "Family",
+    "industry": "Fashion",
+    "city": "Goa",
+    "style_preferences": [
+      "Corporate",
+      "Maximalist"
+    ],
+    "communication_style": "detailed",
+    "client_tier": "high-frequency"
+  },
+  {
+    "id": "cli_013",
+    "name": "Spencer and Sons",
+    "type": "Artist",
+    "industry": "Education",
+    "city": "Chennai",
+    "style_preferences": [
+      "Minimal",
+      "Youthful"
+    ],
+    "communication_style": "brief",
+    "client_tier": "first-timer"
+  },
+  {
+    "id": "cli_014",
+    "name": "Jones-Estrada",
+    "type": "Govt Org",
+    "industry": "Music",
+    "city": "Bangalore",
+    "style_preferences": [
+      "Corporate",
+      "Vibrant"
+    ],
+    "communication_style": "formal",
+    "client_tier": "high-volume"
+  },
+  {
+    "id": "cli_015",
+    "name": "Riddle, Schroeder and Eaton",
+    "type": "Startup",
+    "industry": "Weddings",
+    "city": "Delhi",
+    "style_preferences": [
+      "Minimal",
+      "Maximalist"
+    ],
+    "communication_style": "formal",
+    "client_tier": "high-volume"
+  },
+  {
+    "id": "cli_016",
+    "name": "George-Hill",
+    "type": "Individual",
+    "industry": "Music",
+    "city": "Pune",
+    "style_preferences": [
+      "Clean",
+      "Minimal"
+    ],
+    "communication_style": "brief",
+    "client_tier": "high-value"
+  },
+  {
+    "id": "cli_017",
+    "name": "Floyd Ltd",
+    "type": "Creator",
+    "industry": "Travel",
+    "city": "Mumbai",
+    "style_preferences": [
+      "Minimal",
+      "Youthful"
+    ],
+    "communication_style": "casual",
+    "client_tier": "first-timer"
+  },
+  {
+    "id": "cli_018",
+    "name": "Goodman-Buck",
+    "type": "Startup",
+    "industry": "Weddings",
+    "city": "Goa",
+    "style_preferences": [
+      "Corporate",
+      "Maximalist"
+    ],
+    "communication_style": "detailed",
+    "client_tier": "first-timer"
+  },
+  {
+    "id": "cli_019",
+    "name": "Lee Inc",
+    "type": "Startup",
+    "industry": "Music",
+    "city": "Kolkata",
+    "style_preferences": [
+      "Boho",
+      "Corporate"
+    ],
+    "communication_style": "casual",
+    "client_tier": "high-volume"
+  },
+  {
+    "id": "cli_020",
+    "name": "Clark-Riley",
+    "type": "Company",
+    "industry": "Weddings",
+    "city": "Kolkata",
+    "style_preferences": [
+      "Maximalist",
+      "Vibrant"
+    ],
+    "communication_style": "detailed",
+    "client_tier": "first-timer"
+  },
+  {
+    "id": "cli_021",
+    "name": "Smith LLC",
+    "type": "Agency",
+    "industry": "Music",
+    "city": "Mumbai",
+    "style_preferences": [
+      "Youthful",
+      "Maximalist"
+    ],
+    "communication_style": "brief",
+    "client_tier": "high-volume"
+  },
+  {
+    "id": "cli_022",
+    "name": "Butler, Hoffman and Sanchez",
+    "type": "Agency",
+    "industry": "Weddings",
+    "city": "Mumbai",
+    "style_preferences": [
+      "Boho",
+      "Luxury"
+    ],
+    "communication_style": "casual",
+    "client_tier": "first-timer"
+  },
+  {
+    "id": "cli_023",
+    "name": "Butler-Pena",
+    "type": "Family",
+    "industry": "Music",
+    "city": "Hyderabad",
+    "style_preferences": [
+      "Clean",
+      "Youthful"
+    ],
+    "communication_style": "detailed",
+    "client_tier": "high-frequency"
+  },
+  {
+    "id": "cli_024",
+    "name": "Frederick and Sons",
+    "type": "Govt Org",
+    "industry": "Real Estate",
+    "city": "Kolkata",
+    "style_preferences": [
+      "Clean",
+      "Vibrant"
+    ],
+    "communication_style": "casual",
+    "client_tier": "high-volume"
+  },
+  {
+    "id": "cli_025",
+    "name": "Hill-Schneider",
+    "type": "Artist",
+    "industry": "Fitness",
+    "city": "Hyderabad",
+    "style_preferences": [
+      "Boho",
+      "Corporate"
+    ],
+    "communication_style": "casual",
+    "client_tier": "high-volume"
+  },
+  {
+    "id": "cli_026",
+    "name": "Lewis-Miller",
+    "type": "Agency",
+    "industry": "Fashion",
+    "city": "Pune",
+    "style_preferences": [
+      "Maximalist",
+      "Vibrant"
+    ],
+    "communication_style": "casual",
+    "client_tier": "first-timer"
+  },
+  {
+    "id": "cli_027",
+    "name": "Johnson, Briggs and Roy",
+    "type": "Govt Org",
+    "industry": "Real Estate",
+    "city": "Hyderabad",
+    "style_preferences": [
+      "Youthful",
+      "Minimal"
+    ],
+    "communication_style": "formal",
+    "client_tier": "high-volume"
+  },
+  {
+    "id": "cli_028",
+    "name": "Daniel-Wright",
+    "type": "Agency",
+    "industry": "Travel",
+    "city": "Goa",
+    "style_preferences": [
+      "Boho",
+      "Luxury"
+    ],
+    "communication_style": "casual",
+    "client_tier": "high-value"
+  },
+  {
+    "id": "cli_029",
+    "name": "Vasquez PLC",
+    "type": "Company",
+    "industry": "Fitness",
+    "city": "Chennai",
+    "style_preferences": [
+      "Clean",
+      "Youthful"
+    ],
+    "communication_style": "casual",
+    "client_tier": "high-volume"
+  },
+  {
+    "id": "cli_030",
+    "name": "Williams-Stewart",
+    "type": "Creator",
+    "industry": "D2C",
+    "city": "Mumbai",
+    "style_preferences": [
+      "Luxury",
+      "Corporate"
+    ],
+    "communication_style": "formal",
+    "client_tier": "high-volume"
+  },
+  {
+    "id": "cli_031",
+    "name": "Bennett-Robinson",
+    "type": "Creator",
+    "industry": "Education",
+    "city": "Pune",
+    "style_preferences": [
+      "Boho",
+      "Maximalist"
+    ],
+    "communication_style": "formal",
+    "client_tier": "first-timer"
+  },
+  {
+    "id": "cli_032",
+    "name": "Flynn Group",
+    "type": "Creator",
+    "industry": "Education",
+    "city": "Bangalore",
+    "style_preferences": [
+      "Maximalist",
+      "Youthful"
+    ],
+    "communication_style": "brief",
+    "client_tier": "high-frequency"
+  },
+  {
+    "id": "cli_033",
+    "name": "Smith PLC",
+    "type": "Company",
+    "industry": "Weddings",
+    "city": "Pune",
+    "style_preferences": [
+      "Luxury",
+      "Vibrant"
+    ],
+    "communication_style": "detailed",
+    "client_tier": "high-volume"
+  },
+  {
+    "id": "cli_034",
+    "name": "Cooper PLC",
+    "type": "Artist",
+    "industry": "Music",
+    "city": "Hyderabad",
+    "style_preferences": [
+      "Maximalist",
+      "Luxury"
+    ],
+    "communication_style": "formal",
+    "client_tier": "first-timer"
+  },
+  {
+    "id": "cli_035",
+    "name": "Williams-Webster",
+    "type": "Artist",
+    "industry": "Fashion",
+    "city": "Pune",
+    "style_preferences": [
+      "Vibrant",
+      "Minimal"
+    ],
+    "communication_style": "formal",
+    "client_tier": "high-volume"
+  },
+  {
+    "id": "cli_036",
+    "name": "Griffith Group",
+    "type": "Company",
+    "industry": "Music",
+    "city": "Mumbai",
+    "style_preferences": [
+      "Minimal",
+      "Luxury"
+    ],
+    "communication_style": "brief",
+    "client_tier": "high-volume"
+  },
+  {
+    "id": "cli_037",
+    "name": "Frost Group",
+    "type": "Company",
+    "industry": "D2C",
+    "city": "Hyderabad",
+    "style_preferences": [
+      "Boho",
+      "Luxury"
+    ],
+    "communication_style": "detailed",
+    "client_tier": "high-volume"
+  },
+  {
+    "id": "cli_038",
+    "name": "Payne-Torres",
+    "type": "Govt Org",
+    "industry": "Fashion",
+    "city": "Goa",
+    "style_preferences": [
+      "Vibrant",
+      "Youthful"
+    ],
+    "communication_style": "casual",
+    "client_tier": "first-timer"
+  },
+  {
+    "id": "cli_039",
+    "name": "Hill and Sons",
+    "type": "Agency",
+    "industry": "D2C",
+    "city": "Pune",
+    "style_preferences": [
+      "Minimal",
+      "Youthful"
+    ],
+    "communication_style": "casual",
+    "client_tier": "high-frequency"
+  },
+  {
+    "id": "cli_040",
+    "name": "Garner PLC",
+    "type": "Startup",
+    "industry": "Music",
+    "city": "Delhi",
+    "style_preferences": [
+      "Corporate",
+      "Vibrant"
+    ],
+    "communication_style": "brief",
+    "client_tier": "high-frequency"
+  },
+  {
+    "id": "cli_041",
+    "name": "Perez, Ryan and Velasquez",
+    "type": "Startup",
+    "industry": "D2C",
+    "city": "Goa",
+    "style_preferences": [
+      "Vibrant",
+      "Boho"
+    ],
+    "communication_style": "casual",
+    "client_tier": "high-value"
+  },
+  {
+    "id": "cli_042",
+    "name": "Cole-Miller",
+    "type": "Agency",
+    "industry": "Real Estate",
+    "city": "Delhi",
+    "style_preferences": [
+      "Vibrant",
+      "Boho"
+    ],
+    "communication_style": "brief",
+    "client_tier": "high-value"
+  },
+  {
+    "id": "cli_043",
+    "name": "Griffith-Harrison",
+    "type": "Company",
+    "industry": "Music",
+    "city": "Delhi",
+    "style_preferences": [
+      "Youthful",
+      "Luxury"
+    ],
+    "communication_style": "brief",
+    "client_tier": "high-frequency"
+  },
+  {
+    "id": "cli_044",
+    "name": "Heath-Lopez",
+    "type": "Creator",
+    "industry": "Weddings",
+    "city": "Bangalore",
+    "style_preferences": [
+      "Corporate",
+      "Vibrant"
+    ],
+    "communication_style": "formal",
+    "client_tier": "high-volume"
+  },
+  {
+    "id": "cli_045",
+    "name": "Brennan-Smith",
+    "type": "Creator",
+    "industry": "Education",
+    "city": "Delhi",
+    "style_preferences": [
+      "Vibrant",
+      "Corporate"
+    ],
+    "communication_style": "casual",
+    "client_tier": "high-value"
+  },
+  {
+    "id": "cli_046",
+    "name": "Ferguson, Rogers and Mills",
+    "type": "Agency",
+    "industry": "Weddings",
+    "city": "Delhi",
+    "style_preferences": [
+      "Minimal",
+      "Boho"
+    ],
+    "communication_style": "formal",
+    "client_tier": "first-timer"
+  },
+  {
+    "id": "cli_047",
+    "name": "Torres and Sons",
+    "type": "Individual",
+    "industry": "Music",
+    "city": "Kolkata",
+    "style_preferences": [
+      "Maximalist",
+      "Minimal"
+    ],
+    "communication_style": "brief",
+    "client_tier": "first-timer"
+  },
+  {
+    "id": "cli_048",
+    "name": "Nash, Wheeler and Thomas",
+    "type": "Individual",
+    "industry": "Fitness",
+    "city": "Pune",
+    "style_preferences": [
+      "Minimal",
+      "Clean"
+    ],
+    "communication_style": "casual",
+    "client_tier": "high-volume"
+  },
+  {
+    "id": "cli_049",
+    "name": "Contreras PLC",
+    "type": "Agency",
+    "industry": "Weddings",
+    "city": "Delhi",
+    "style_preferences": [
+      "Youthful",
+      "Corporate"
+    ],
+    "communication_style": "casual",
+    "client_tier": "high-value"
+  },
+  {
+    "id": "cli_050",
+    "name": "Marshall, Flores and Carter",
+    "type": "Company",
+    "industry": "Travel",
+    "city": "Delhi",
+    "style_preferences": [
+      "Luxury",
+      "Corporate"
+    ],
+    "communication_style": "brief",
+    "client_tier": "first-timer"
+  }
+]
