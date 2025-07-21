@@ -149,10 +149,6 @@ async function startServer() {
     // Run migrations
     await migrate();
 
-    // Seed data if needed
-    const seeder = new DataSeeder();
-    await seeder.seedIfNeeded();
-
     // Start listening
     app.listen(PORT, () => {
       logger.info(`🚀 BreadButter API server running on port ${PORT}`);
