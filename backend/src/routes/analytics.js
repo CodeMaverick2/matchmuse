@@ -49,7 +49,7 @@ router.get('/', async (req, res) => {
         c.name as client_name
       FROM gigs g
       LEFT JOIN clients c ON g.client_id = c.id
-      WHERE g.created_at >= ?
+      WHERE g.created_at >= $1
       ORDER BY g.created_at DESC
       LIMIT 5
     `, [startDate.toISOString()]);
@@ -63,7 +63,7 @@ router.get('/', async (req, res) => {
         t.name as client_name
       FROM matches m
       JOIN talents t ON m.talent_id = t.id
-      WHERE m.created_at >= ?
+      WHERE m.created_at >= $1
       ORDER BY m.created_at DESC
       LIMIT 5
     `, [startDate.toISOString()]);
