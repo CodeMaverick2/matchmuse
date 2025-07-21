@@ -1,6 +1,6 @@
-const { GaleShapleyMatcher } = require('./GaleShapleyMatcher');
-const { SemanticMatcher } = require('./SemanticMatcher');
-const { MatchmakingEngine } = require('./MatchmakingEngine');
+const GaleShapleyMatcher = require('./GaleShapleyMatcher');
+const SemanticMatcher = require('./SemanticMatcher');
+const MatchmakingEngine = require('./MatchmakingEngine');
 const db = require('../database/connection');
 const logger = require('../utils/logger');
 
@@ -479,4 +479,4 @@ class EnhancedMatchmakingEngine {
   }
 }
 
-module.exports = { EnhancedMatchmakingEngine }; 
+module.exports = EnhancedMatchmakingEngine; 

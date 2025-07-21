@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const { EnhancedMatchmakingEngine } = require('../services/EnhancedMatchmakingEngine');
-const { GaleShapleyMatcher } = require('../services/GaleShapleyMatcher');
-const { SemanticMatcher } = require('../services/SemanticMatcher');
+const EnhancedMatchmakingEngine = require('../services/EnhancedMatchmakingEngine');
+const GaleShapleyMatcher = require('../services/GaleShapleyMatcher');
+const SemanticMatcher = require('../services/SemanticMatcher');
 const db = require('../database/connection');
 const logger = require('../utils/logger');
 
