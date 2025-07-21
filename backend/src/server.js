@@ -20,6 +20,7 @@ const analyticsRoutes = require('./routes/analytics');
 const healthRoutes = require('./routes/health');
 
 const app = express();
+app.set('trust proxy', 1); // trust first proxy for rate limiting and real IPs
 const PORT = process.env.PORT || 3000;
 
 // Security middleware

@@ -33,6 +33,7 @@ class Database {
   }
 
   async run(sql, params = []) {
+    if (!this.pool) await this.connect();
     try {
       const result = await this.pool.query(sql, params);
       return { rowCount: result.rowCount, rows: result.rows };
@@ -43,6 +44,7 @@ class Database {
   }
 
   async get(sql, params = []) {
+    if (!this.pool) await this.connect();
     try {
       const result = await this.pool.query(sql, params);
       return result.rows[0] || null;
@@ -53,6 +55,7 @@ class Database {
   }
 
   async all(sql, params = []) {
+    if (!this.pool) await this.connect();
     try {
       const result = await this.pool.query(sql, params);
       return result.rows;
@@ -63,6 +66,7 @@ class Database {
   }
 
   async exec(sql) {
+    if (!this.pool) await this.connect();
     try {
       await this.pool.query(sql);
     } catch (err) {
@@ -72,6 +76,7 @@ class Database {
   }
 
   async transaction(callback) {
+    if (!this.pool) await this.connect();
     const client = await this.pool.connect();
     try {
       await client.query('BEGIN');
