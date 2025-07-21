@@ -193,6 +193,15 @@ CREATE INDEX IF NOT EXISTS idx_matches_status ON matches(status);
 CREATE INDEX IF NOT EXISTS idx_matches_decision ON matches(final_decision);
 
 -- Triggers for updated_at timestamps in PostgreSQL
+-- Drop triggers if they exist before creating (idempotent)
+DROP TRIGGER IF EXISTS update_talents_timestamp ON talents;
+DROP TRIGGER IF EXISTS update_clients_timestamp ON clients;
+DROP TRIGGER IF EXISTS update_gigs_timestamp ON gigs;
+DROP TRIGGER IF EXISTS update_matches_timestamp ON matches;
+
+-- Drop function if it exists before creating (idempotent)
+DROP FUNCTION IF EXISTS update_updated_at_column();
+
 CREATE OR REPLACE FUNCTION update_updated_at_column()
 RETURNS TRIGGER AS $$
 BEGIN
