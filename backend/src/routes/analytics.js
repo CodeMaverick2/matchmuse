@@ -80,7 +80,7 @@ router.get('/', async (req, res) => {
         COUNT(DISTINCT g.client_id) as unique_clients,
         AVG(g.budget) as avg_budget
       FROM gigs g
-      WHERE g.created_at >= ?
+      WHERE g.created_at >= $1
       GROUP BY g.category
       ORDER BY gig_count DESC
       LIMIT 5
@@ -109,7 +109,7 @@ router.get('/', async (req, res) => {
         COUNT(CASE WHEN final_decision = 'backup' THEN 1 END) as backup_count,
         AVG(score) as avg_score
       FROM matches
-      WHERE created_at >= ?
+      WHERE created_at >= $1
     `, [startDate.toISOString()]);
 
     res.json({
@@ -155,16 +155,7 @@ router.get('/', async (req, res) => {
 router.get('/performance', async (req, res) => {
   try {
     // Get database performance metrics
-    const dbStats = await database.get(`
-      SELECT 
-        COUNT(*) as total_records,
-        (SELECT COUNT(*) FROM talents) as talents,
-        (SELECT COUNT(*) FROM clients) as clients,
-        (SELECT COUNT(*) FROM gigs) as gigs,
-        (SELECT COUNT(*) FROM matches) as matches
-      FROM sqlite_master 
-      WHERE type='table'
-    `);
+    const dbStats = await database.get(`SELECT (SELECT COUNT(*) FROM talents) as talents, (SELECT COUNT(*) FROM clients) as clients, (SELECT COUNT(*) FROM gigs) as gigs, (SELECT COUNT(*) FROM matches) as matches`);
 
     // Get recent matchmaking performance
     const recentMatches = await database.all(`

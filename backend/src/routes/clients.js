@@ -13,21 +13,22 @@ router.get('/', async (req, res) => {
     const { page = 1, limit = 20, type, industry, city } = req.query;
     const offset = (parseInt(page) - 1) * parseInt(limit);
 
+    let paramIndex = 1;
     let query = 'SELECT * FROM clients WHERE 1=1';
     const params = [];
 
     if (type) {
-      query += ' AND type = ?';
+      query += ` AND type = $${paramIndex++}`;
       params.push(type);
     }
 
     if (industry) {
-      query += ' AND industry = ?';
+      query += ` AND industry = $${paramIndex++}`;
       params.push(industry);
     }
 
     if (city) {
-      query += ' AND city = ?';
+      query += ` AND city = $${paramIndex++}`;
       params.push(city);
     }
 
@@ -36,7 +37,7 @@ router.get('/', async (req, res) => {
     const countResult = await database.get(countQuery, params);
 
     // Add pagination
-    query += ' ORDER BY created_at DESC LIMIT ? OFFSET ?';
+    query += ` ORDER BY created_at DESC LIMIT $${paramIndex} OFFSET $${paramIndex + 1}`;
     params.push(parseInt(limit), offset);
 
     const clients = await database.all(query, params);

@@ -29,7 +29,7 @@ class EnhancedMatchmakingEngine {
       
       if (typeof gigOrId === 'string') {
         // Existing gig-based matching
-        const [gigs] = await db.execute('SELECT * FROM gigs WHERE id = ?', [gigOrId]);
+        const [gigs] = await db.execute('SELECT * FROM gigs WHERE id = $1', [gigOrId]);
         if (gigs.length === 0) {
           throw new Error('Gig not found');
         }
@@ -126,29 +126,29 @@ class EnhancedMatchmakingEngine {
     
     let query = `
       SELECT * FROM talents 
-      WHERE categories LIKE ? 
+      WHERE categories LIKE $1 
       AND availability = 1
     `;
     
     const params = [`%${gig.category}%`];
     
     if (filters.city) {
-      query += ' AND city LIKE ?';
+      query += ' AND city LIKE $2';
       params.push(`%${filters.city}%`);
     }
     
     if (filters.max_budget) {
-      query += ' AND budget_min <= ?';
+      query += ' AND budget_min <= $3';
       params.push(filters.max_budget);
     }
     
     if (filters.min_experience) {
-      query += ' AND experience_years >= ?';
+      query += ' AND experience_years >= $4';
       params.push(filters.min_experience);
     }
     
     if (filters.categories && filters.categories.length > 0) {
-      const categoryConditions = filters.categories.map(() => 'categories LIKE ?').join(' OR ');
+      const categoryConditions = filters.categories.map(() => 'categories LIKE $5').join(' OR ');
       query += ` AND (${categoryConditions})`;
       filters.categories.forEach(cat => params.push(`%${cat}%`));
     }

@@ -45,6 +45,7 @@ router.get('/', async (req, res) => {
     const offset = (parseInt(page) - 1) * parseInt(limit);
 
     // Build query with filters
+    let paramIndex = 1;
     let query = `
       SELECT DISTINCT t.*
       FROM talents t
@@ -57,32 +58,32 @@ router.get('/', async (req, res) => {
     const params = [];
 
     if (city) {
-      query += ' AND t.city = ?';
+      query += ` AND t.city = $${paramIndex++}`;
       params.push(city);
     }
 
     if (category) {
-      query += ' AND tc.category = ?';
+      query += ` AND tc.category = $${paramIndex++}`;
       params.push(category);
     }
 
     if (skill) {
-      query += ' AND ts.skill LIKE ?';
+      query += ` AND ts.skill LIKE $${paramIndex++}`;
       params.push(`%${skill}%`);
     }
 
     if (min_experience) {
-      query += ' AND t.experience_years >= ?';
+      query += ` AND t.experience_years >= $${paramIndex++}`;
       params.push(parseInt(min_experience));
     }
 
     if (max_budget) {
-      query += ' AND t.budget_max <= ?';
+      query += ` AND t.budget_max <= $${paramIndex++}`;
       params.push(parseInt(max_budget));
     }
 
     if (style_tag) {
-      query += ' AND tst.style_tag = ?';
+      query += ` AND tst.style_tag = $${paramIndex++}`;
       params.push(style_tag);
     }
 
@@ -91,7 +92,7 @@ router.get('/', async (req, res) => {
     const countResult = await database.get(countQuery, params);
 
     // Add pagination
-    query += ' ORDER BY t.created_at DESC LIMIT ? OFFSET ?';
+    query += ` ORDER BY t.created_at DESC LIMIT $${paramIndex} OFFSET $${paramIndex + 1}`;
     params.push(parseInt(limit), offset);
 
     const talents = await database.all(query, params);

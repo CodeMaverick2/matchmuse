@@ -13,6 +13,7 @@ router.get('/', async (req, res) => {
     const { page = 1, limit = 20, category, city, status, client_id } = req.query;
     const offset = (parseInt(page) - 1) * parseInt(limit);
 
+    let paramIndex = 1;
     let query = `
       SELECT g.*, c.name as client_name, c.industry as client_industry
       FROM gigs g
@@ -22,22 +23,22 @@ router.get('/', async (req, res) => {
     const params = [];
 
     if (category) {
-      query += ' AND g.category = ?';
+      query += ` AND g.category = $${paramIndex++}`;
       params.push(category);
     }
 
     if (city) {
-      query += ' AND g.city = ?';
+      query += ` AND g.city = $${paramIndex++}`;
       params.push(city);
     }
 
     if (status) {
-      query += ' AND g.status = ?';
+      query += ` AND g.status = $${paramIndex++}`;
       params.push(status);
     }
 
     if (client_id) {
-      query += ' AND g.client_id = ?';
+      query += ` AND g.client_id = $${paramIndex++}`;
       params.push(client_id);
     }
 
@@ -46,7 +47,7 @@ router.get('/', async (req, res) => {
     const countResult = await database.get(countQuery, params);
 
     // Add pagination
-    query += ' ORDER BY g.created_at DESC LIMIT ? OFFSET ?';
+    query += ` ORDER BY g.created_at DESC LIMIT $${paramIndex} OFFSET $${paramIndex + 1}`;
     params.push(parseInt(limit), offset);
 
     const gigs = await database.all(query, params);

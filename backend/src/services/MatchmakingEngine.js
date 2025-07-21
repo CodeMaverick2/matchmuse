@@ -87,7 +87,7 @@ class MatchmakingEngine {
       SELECT g.*, c.name as client_name, c.industry as client_industry
       FROM gigs g
       LEFT JOIN clients c ON g.client_id = c.id
-      WHERE g.id = ?
+      WHERE g.id = $1
     `, [gigId]);
 
     if (gig) {
@@ -137,7 +137,7 @@ class MatchmakingEngine {
     // Location matching (from gig or filters)
     const locationFilter = filters.city || city;
     if (locationFilter && locationFilter !== 'Remote') {
-      query += ` AND (t.city = ? OR ta.city = ?)`;
+      query += ` AND (t.city = $1 OR ta.city = $2)`;
       params.push(locationFilter, locationFilter);
       logger.info('Applied location filter:', locationFilter);
     }
@@ -146,7 +146,7 @@ class MatchmakingEngine {
     const categoryFilter = filters.categories ? filters.categories[0] : category;
     if (categoryFilter) {
       const talentCategory = this.mapGigCategoryToTalentCategory(categoryFilter);
-      query += ` AND tc.category = ?`;
+      query += ` AND tc.category = $3`;
       params.push(talentCategory);
     }
 
@@ -155,11 +155,11 @@ class MatchmakingEngine {
     if (budgetFilter) {
       if (filters.max_budget) {
         // For max_budget filter, ensure talent's max budget is within limit
-        query += ` AND t.budget_max <= ?`;
+        query += ` AND t.budget_max <= $4`;
         params.push(budgetFilter);
       } else {
         // For gig budget, ensure talent's range includes the gig budget
-        query += ` AND t.budget_min <= ? AND t.budget_max >= ?`;
+        query += ` AND t.budget_min <= $5 AND t.budget_max >= $6`;
         params.push(budgetFilter, budgetFilter);
       }
     }
@@ -167,7 +167,7 @@ class MatchmakingEngine {
     // Experience level matching (from gig or filters)
     const experienceFilter = filters.min_experience;
     if (experienceFilter !== undefined) {
-      query += ` AND t.experience_years >= ?`;
+      query += ` AND t.experience_years >= $7`;
       params.push(experienceFilter);
     } else if (expectation_level) {
       const experienceMap = {
@@ -179,11 +179,11 @@ class MatchmakingEngine {
       };
       
       const [minExp, maxExp] = experienceMap[expectation_level] || [0, 999];
-      query += ` AND t.experience_years BETWEEN ? AND ?`;
+      query += ` AND t.experience_years BETWEEN $8 AND $9`;
       params.push(minExp, maxExp);
     }
 
-    query += ` LIMIT ?`;
+    query += ` LIMIT $10`;
     params.push(limit);
 
     const candidates = await database.all(query, params);
@@ -201,28 +201,28 @@ class MatchmakingEngine {
   async enrichCandidateData(candidate) {
     // Get categories
     const categories = await database.all(
-      'SELECT category FROM talent_categories WHERE talent_id = ?',
+      'SELECT category FROM talent_categories WHERE talent_id = $1',
       [candidate.id]
     );
     candidate.categories = categories.map(c => c.category);
 
     // Get skills
     const skills = await database.all(
-      'SELECT skill FROM talent_skills WHERE talent_id = ?',
+      'SELECT skill FROM talent_skills WHERE talent_id = $1',
       [candidate.id]
     );
     candidate.skills = skills.map(s => s.skill);
 
     // Get style tags
     const styleTags = await database.all(
-      'SELECT style_tag FROM talent_style_tags WHERE talent_id = ?',
+      'SELECT style_tag FROM talent_style_tags WHERE talent_id = $1',
       [candidate.id]
     );
     candidate.style_tags = styleTags.map(s => s.style_tag);
 
     // Get portfolio
     const portfolio = await database.all(
-      'SELECT * FROM talent_portfolio WHERE talent_id = ?',
+      'SELECT * FROM talent_portfolio WHERE talent_id = $1',
       [candidate.id]
     );
     candidate.portfolio = portfolio.map(p => ({
@@ -233,7 +233,7 @@ class MatchmakingEngine {
 
     // Get availability
     const availability = await database.all(
-      'SELECT * FROM talent_availability WHERE talent_id = ?',
+      'SELECT * FROM talent_availability WHERE talent_id = $1',
       [candidate.id]
     );
     candidate.availability = availability;

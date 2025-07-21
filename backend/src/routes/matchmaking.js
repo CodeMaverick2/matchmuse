@@ -46,14 +46,14 @@ router.post('/match', async (req, res) => {
       // Get talents that match preferences
       const talentQuery = `
         SELECT * FROM talents 
-        WHERE categories LIKE ? 
-        AND city LIKE ? 
-        AND budget_min <= ? 
-        AND budget_max >= ?
-        AND experience_years >= ?
-        AND rating >= ?
+        WHERE categories LIKE $1 
+        AND city LIKE $2 
+        AND budget_min <= $3 
+        AND budget_max >= $4
+        AND experience_years >= $5
+        AND rating >= $6
         ${preferences.remote ? '' : 'AND availability = 1'}
-        LIMIT ?
+        LIMIT $7
       `;
 
       const experienceYears = preferences.experience_level === 'Beginner' ? 0 : 
@@ -104,7 +104,7 @@ router.post('/match', async (req, res) => {
       // Existing gig-based matching
       logger.info('Starting gig-based matching', { gig_id, algorithm });
       
-      const [gigs] = await db.execute('SELECT * FROM gigs WHERE id = ?', [gig_id]);
+      const [gigs] = await db.execute('SELECT * FROM gigs WHERE id = $1', [gig_id]);
       if (gigs.length === 0) {
         return res.status(404).json({
           success: false,
@@ -126,7 +126,7 @@ router.post('/match', async (req, res) => {
     for (const match of matches) {
       await db.execute(`
         INSERT INTO matches (gig_id, talent_id, score, rank, algorithm_type, match_type, stability_verified, created_at)
-        VALUES (?, ?, ?, ?, ?, ?, ?, NOW())
+        VALUES ($1, $2, $3, $4, $5, $6, $7, NOW())
       `, [
         gig.id,
         match.talent.id,
@@ -168,22 +168,22 @@ router.get('/gig/:gigId/matches', async (req, res) => {
       FROM matches m
       JOIN talents t ON m.talent_id = t.id
       JOIN gigs g ON m.gig_id = g.id
-      WHERE m.gig_id = ?
+      WHERE m.gig_id = $1
     `;
     
     const params = [gigId];
     
     if (status) {
-      query += ' AND m.status = ?';
+      query += ' AND m.status = $2';
       params.push(status);
     }
     
     if (algorithm_type) {
-      query += ' AND m.algorithm_type = ?';
+      query += ' AND m.algorithm_type = $3';
       params.push(algorithm_type);
     }
     
-    query += ' ORDER BY m.score DESC LIMIT ? OFFSET ?';
+    query += ' ORDER BY m.score DESC LIMIT $4 OFFSET $5';
     params.push(parseInt(limit), parseInt(offset));
 
     const [matches] = await db.execute(query, params);
@@ -238,8 +238,8 @@ router.post('/feedback', async (req, res) => {
 
     await db.execute(`
       UPDATE matches 
-      SET feedback_rating = ?, feedback_text = ?, decision = ?, updated_at = NOW()
-      WHERE id = ?
+      SET feedback_rating = $1, feedback_text = $2, decision = $3, updated_at = NOW()
+      WHERE id = $4
     `, [rating, feedback, decision, match_id]);
 
     res.json({
@@ -300,7 +300,7 @@ router.post('/algorithm/verify', async (req, res) => {
   try {
     const { gig_id, options = {} } = req.body;
 
-    const [gigs] = await db.execute('SELECT * FROM gigs WHERE id = ?', [gig_id]);
+    const [gigs] = await db.execute('SELECT * FROM gigs WHERE id = $1', [gig_id]);
     if (gigs.length === 0) {
       return res.status(404).json({
         success: false,

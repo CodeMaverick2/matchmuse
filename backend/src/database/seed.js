@@ -105,7 +105,7 @@ class DataSeeder {
             talent_preferences, project_history, inbound_source, important_dates,
             social_profiles, notes_and_history, past_feedback, lead_owner,
             is_repeat_client, attachments_docs_provided
-          ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+          ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25)
         `, [
           client.id,
           client.name,
@@ -139,7 +139,7 @@ class DataSeeder {
         if (client.style_preferences) {
           for (const preference of client.style_preferences) {
             await database.run(
-              'INSERT INTO client_style_preferences (client_id, style_preference) VALUES (?, ?)',
+              'INSERT INTO client_style_preferences (client_id, style_preference) VALUES ($1, $2)',
               [client.id, preference]
             );
           }
@@ -178,7 +178,7 @@ class DataSeeder {
             id, name, city, hometown, experience_years, budget_min, budget_max,
             soft_skills, software_skills, languages, past_credits, endorsements,
             interest_tags, tier_tags
-          ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+          ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14)
         `, [
           talent.id,
           talent.name,
@@ -200,7 +200,7 @@ class DataSeeder {
         if (talent.categories) {
           for (const category of talent.categories) {
             await database.run(
-              'INSERT INTO talent_categories (talent_id, category) VALUES (?, ?)',
+              'INSERT INTO talent_categories (talent_id, category) VALUES ($1, $2)',
               [talent.id, category]
             );
           }
@@ -210,7 +210,7 @@ class DataSeeder {
         if (talent.skills) {
           for (const skill of talent.skills) {
             await database.run(
-              'INSERT INTO talent_skills (talent_id, skill) VALUES (?, ?)',
+              'INSERT INTO talent_skills (talent_id, skill) VALUES ($1, $2)',
               [talent.id, skill]
             );
           }
@@ -220,7 +220,7 @@ class DataSeeder {
         if (talent.style_tags) {
           for (const styleTag of talent.style_tags) {
             await database.run(
-              'INSERT INTO talent_style_tags (talent_id, style_tag) VALUES (?, ?)',
+              'INSERT INTO talent_style_tags (talent_id, style_tag) VALUES ($1, $2)',
               [talent.id, styleTag]
             );
           }
@@ -231,7 +231,7 @@ class DataSeeder {
           for (const portfolioItem of talent.portfolio) {
             await database.run(`
               INSERT INTO talent_portfolio (talent_id, title, tags, keywords)
-              VALUES (?, ?, ?, ?)
+              VALUES ($1, $2, $3, $4)
             `, [
               talent.id,
               portfolioItem.title,
@@ -246,7 +246,7 @@ class DataSeeder {
           for (const availability of talent.availability_calendar) {
             await database.run(`
               INSERT INTO talent_availability (talent_id, city, from_date, to_date)
-              VALUES (?, ?, ?, ?)
+              VALUES ($1, $2, $3, $4)
             `, [
               talent.id,
               availability.city,
@@ -287,7 +287,7 @@ class DataSeeder {
             id, title, brief_text, category, city, budget, budget_range,
             client_id, style_tags, expectation_level, status, start_date,
             has_docs, docs_type, is_date_fixed, references_given, urgency
-          ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+          ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17)
         `, [
           gig.id,
           gig.title,
@@ -312,7 +312,7 @@ class DataSeeder {
         if (gig.style_tags) {
           for (const styleTag of gig.style_tags) {
             await database.run(
-              'INSERT INTO gig_style_tags (gig_id, style_tag) VALUES (?, ?)',
+              'INSERT INTO gig_style_tags (gig_id, style_tag) VALUES ($1, $2)',
               [gig.id, styleTag]
             );
           }
@@ -335,7 +335,7 @@ class DataSeeder {
         INSERT INTO matches (
           gig_id, talent_id, status, score, feedback_from_client,
           feedback_from_talent, shared_on, final_decision
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
       `, [
         match.gig_id,
         match.talent_id,
