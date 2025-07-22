@@ -209,9 +209,9 @@ export const Clients: React.FC = () => {
                   </div>
                 </div>
                 
-                {client.preferences.length > 0 && (
+                {(client.preferences ?? []).length > 0 && (
                   <div className="flex flex-wrap gap-1">
-                    {client.preferences.slice(0, 3).map((pref, idx) => (
+                    {(client.preferences ?? []).slice(0, 3).map((pref, idx) => (
                       <span
                         key={idx}
                         className="px-2 py-1 bg-orange-500/20 text-orange-300 text-xs rounded-md"
@@ -219,9 +219,9 @@ export const Clients: React.FC = () => {
                         {pref}
                       </span>
                     ))}
-                    {client.preferences.length > 3 && (
+                    {(client.preferences ?? []).length > 3 && (
                       <span className="px-2 py-1 bg-white/10 text-white/60 text-xs rounded-md">
-                        +{client.preferences.length - 3} more
+                        +{(client.preferences ?? []).length - 3} more
                       </span>
                     )}
                   </div>
