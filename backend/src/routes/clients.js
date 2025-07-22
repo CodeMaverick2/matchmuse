@@ -96,7 +96,7 @@ router.get('/:id', async (req, res) => {
 
     // Get style preferences
     const stylePreferences = await database.all(
-      'SELECT style_preference FROM client_style_preferences WHERE client_id = ?',
+      'SELECT style_preference FROM client_style_preferences WHERE client_id = $1',
       [id]
     );
 

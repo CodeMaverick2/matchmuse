@@ -1,3 +1,4 @@
+require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 const database = require('./connection');
@@ -105,7 +106,7 @@ class DataSeeder {
             talent_preferences, project_history, inbound_source, important_dates,
             social_profiles, notes_and_history, past_feedback, lead_owner,
             is_repeat_client, attachments_docs_provided
-          ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25)
+          ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26) ON CONFLICT (id) DO NOTHING
         `, [
           client.id,
           client.name,
@@ -132,14 +133,14 @@ class DataSeeder {
           client.past_feedback,
           client.lead_owner,
           client.is_repeat_client ? 1 : 0,
-          client.attachments_docs_provided
+          client.attachments_docs_provided ?? null
         ]);
 
         // Insert style preferences
         if (client.style_preferences) {
           for (const preference of client.style_preferences) {
             await database.run(
-              'INSERT INTO client_style_preferences (client_id, style_preference) VALUES ($1, $2)',
+              'INSERT INTO client_style_preferences (client_id, style_preference) VALUES ($1, $2) ON CONFLICT (client_id, style_preference) DO NOTHING',
               [client.id, preference]
             );
           }
@@ -178,7 +179,7 @@ class DataSeeder {
             id, name, city, hometown, experience_years, budget_min, budget_max,
             soft_skills, software_skills, languages, past_credits, endorsements,
             interest_tags, tier_tags
-          ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14)
+          ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14) ON CONFLICT (id) DO NOTHING
         `, [
           talent.id,
           talent.name,
@@ -200,7 +201,7 @@ class DataSeeder {
         if (talent.categories) {
           for (const category of talent.categories) {
             await database.run(
-              'INSERT INTO talent_categories (talent_id, category) VALUES ($1, $2)',
+              'INSERT INTO talent_categories (talent_id, category) VALUES ($1, $2) ON CONFLICT (talent_id, category) DO NOTHING',
               [talent.id, category]
             );
           }
@@ -210,7 +211,7 @@ class DataSeeder {
         if (talent.skills) {
           for (const skill of talent.skills) {
             await database.run(
-              'INSERT INTO talent_skills (talent_id, skill) VALUES ($1, $2)',
+              'INSERT INTO talent_skills (talent_id, skill) VALUES ($1, $2) ON CONFLICT (talent_id, skill) DO NOTHING',
               [talent.id, skill]
             );
           }
@@ -220,7 +221,7 @@ class DataSeeder {
         if (talent.style_tags) {
           for (const styleTag of talent.style_tags) {
             await database.run(
-              'INSERT INTO talent_style_tags (talent_id, style_tag) VALUES ($1, $2)',
+              'INSERT INTO talent_style_tags (talent_id, style_tag) VALUES ($1, $2) ON CONFLICT (talent_id, style_tag) DO NOTHING',
               [talent.id, styleTag]
             );
           }
@@ -287,7 +288,7 @@ class DataSeeder {
             id, title, brief_text, category, city, budget, budget_range,
             client_id, style_tags, expectation_level, status, start_date,
             has_docs, docs_type, is_date_fixed, references_given, urgency
-          ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17)
+          ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) ON CONFLICT (id) DO NOTHING
         `, [
           gig.id,
           gig.title,
@@ -312,7 +313,7 @@ class DataSeeder {
         if (gig.style_tags) {
           for (const styleTag of gig.style_tags) {
             await database.run(
-              'INSERT INTO gig_style_tags (gig_id, style_tag) VALUES ($1, $2)',
+              'INSERT INTO gig_style_tags (gig_id, style_tag) VALUES ($1, $2) ON CONFLICT (gig_id, style_tag) DO NOTHING',
               [gig.id, styleTag]
             );
           }
@@ -335,7 +336,7 @@ class DataSeeder {
         INSERT INTO matches (
           gig_id, talent_id, status, score, feedback_from_client,
           feedback_from_talent, shared_on, final_decision
-        ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+        ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8) ON CONFLICT (gig_id, talent_id) DO NOTHING
       `, [
         match.gig_id,
         match.talent_id,

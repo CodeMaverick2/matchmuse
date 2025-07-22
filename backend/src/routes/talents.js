@@ -456,28 +456,28 @@ router.get('/stats/summary', async (req, res) => {
 async function enrichTalentData(talent) {
   // Get categories
   const categories = await database.all(
-    'SELECT category FROM talent_categories WHERE talent_id = ?',
+    'SELECT category FROM talent_categories WHERE talent_id = $1',
     [talent.id]
   );
   talent.categories = categories.map(c => c.category);
 
   // Get skills
   const skills = await database.all(
-    'SELECT skill FROM talent_skills WHERE talent_id = ?',
+    'SELECT skill FROM talent_skills WHERE talent_id = $1',
     [talent.id]
   );
   talent.skills = skills.map(s => s.skill);
 
   // Get style tags
   const styleTags = await database.all(
-    'SELECT style_tag FROM talent_style_tags WHERE talent_id = ?',
+    'SELECT style_tag FROM talent_style_tags WHERE talent_id = $1',
     [talent.id]
   );
   talent.style_tags = styleTags.map(s => s.style_tag);
 
   // Get portfolio
   const portfolio = await database.all(
-    'SELECT * FROM talent_portfolio WHERE talent_id = ?',
+    'SELECT * FROM talent_portfolio WHERE talent_id = $1',
     [talent.id]
   );
   talent.portfolio = portfolio.map(p => ({
@@ -488,7 +488,7 @@ async function enrichTalentData(talent) {
 
   // Get availability
   const availability = await database.all(
-    'SELECT * FROM talent_availability WHERE talent_id = ?',
+    'SELECT * FROM talent_availability WHERE talent_id = $1',
     [talent.id]
   );
   talent.availability = availability;

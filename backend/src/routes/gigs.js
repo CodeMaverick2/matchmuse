@@ -57,7 +57,7 @@ router.get('/', async (req, res) => {
       gigs.map(async (gig) => {
         // Get style tags
         const styleTags = await database.all(
-          'SELECT style_tag FROM gig_style_tags WHERE gig_id = ?',
+          'SELECT style_tag FROM gig_style_tags WHERE gig_id = $1',
           [gig.id]
         );
 
@@ -101,7 +101,7 @@ router.get('/:id', async (req, res) => {
       SELECT g.*, c.name as client_name, c.industry as client_industry
       FROM gigs g
       LEFT JOIN clients c ON g.client_id = c.id
-      WHERE g.id = ?
+      WHERE g.id = $1
     `, [id]);
 
     if (!gig) {
@@ -113,7 +113,7 @@ router.get('/:id', async (req, res) => {
 
     // Get style tags
     const styleTags = await database.all(
-      'SELECT style_tag FROM gig_style_tags WHERE gig_id = ?',
+      'SELECT style_tag FROM gig_style_tags WHERE gig_id = $1',
       [id]
     );
 
