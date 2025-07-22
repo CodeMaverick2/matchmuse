@@ -9,7 +9,7 @@ import { ROUTES } from '../utils/constants';
 import { useAppStore } from '../stores/useAppStore';
 
 export const Home: React.FC = () => {
-  const { talents, clients, gigs } = useAppStore();
+  const { talentCount, clientCount, gigCount } = useAppStore();
   
   const features = [
     {
@@ -36,9 +36,9 @@ export const Home: React.FC = () => {
   ];
   
   const stats = [
-    { label: 'Talented Professionals', value: talents.length, icon: Users },
-    { label: 'Active Clients', value: clients.length, icon: Award },
-    { label: 'Successful Projects', value: gigs.length, icon: CheckCircle },
+    { label: 'Talented Professionals', value: talentCount, icon: Users },
+    { label: 'Active Clients', value: clientCount, icon: Award },
+    { label: 'Successful Projects', value: gigCount, icon: CheckCircle },
     { label: 'Match Success Rate', value: '94%', icon: TrendingUp }
   ];
   
