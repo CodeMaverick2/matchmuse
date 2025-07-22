@@ -91,6 +91,17 @@ class Database {
     }
   }
 
+  async execute(sql, params = []) {
+    if (!this.pool) await this.connect();
+    try {
+      const result = await this.pool.query(sql, params);
+      return [result.rows, result];
+    } catch (err) {
+      logger.error('Database execute error:', err);
+      throw err;
+    }
+  }
+
   // Helper method to parse JSON fields
   parseJsonField(field) {
     if (!field) return null;
